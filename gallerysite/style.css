@@ -1,8 +1,23 @@
 #page {
   background-color: #ccc7c1;
-}
-/*border color bdb4ad*/
+  width: 99%;
+  height: 99%;
+/*width: 982px;
+  height: 700px;*/
+  margin-left: auto;
+  margin-right: auto;
+  widows: 0;
+  orphans: 0;
+  text-align: left !important;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  }
 
+/*  * html something {
+  border-color: #bdb4ad;
+  border-style: solid;
+  border-width: 1px;
+  }*/
 
 #container {}
 
@@ -12,7 +27,11 @@
 
 #header {}
 
-#left_column {}
+#left_column {
+  border-right-color: #bdb4ad;
+  border-right-style: solid;
+  border-right-width: 1px;
+  }
 
 #right_column {}
 
