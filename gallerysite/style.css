@@ -7,7 +7,7 @@
   margin: 0px;
   border: 0px;
   background-color: #ccc7c1;
-  height: 600px;
+  height: 590px;
   width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -33,11 +33,11 @@
 }
 
 #content {
-  height: 70%;
+  height: 72%;
 }
 
 #footer {
-  height: 12%;
+  height: 10%;
 }
 
 .two_columns {}
