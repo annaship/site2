@@ -12,14 +12,14 @@ Where is "position: fixed; top: 0px; left: 0px; height: 0px; width: 0px; z-index
     </div>
     <div class="right_column">
       <div id="title_img">
-        <img alt="" src="images/header/header.jpg"/>
+        <img alt="Holly Smith Pedlosky" src="images/header/header.jpg"/>
       </div>
     </div>
   </div>
   <div id="content">
       <div class="left_column">
         <div id="left_menu">
-          <ul>
+<!--          <ul id="left_menu">-->
             <ul id="first_level">
               <li>Galleries:</li>
               <ul id="second_level">
@@ -61,12 +61,12 @@ Where is "position: fixed; top: 0px; left: 0px; height: 0px; width: 0px; z-index
                 </ul>
               </ul>
             </ul>
-          </ul>
+<!--          </ul>-->
         </div>
       </div>
       <div class="right_column">
         <div id="big_img">
-          <img alt="" src="images/home_page/big_image.jpg"/>
+          <img alt="Anna&nbsp;&amp; Maria, La Giudecca, Venice" src="images/home_page/big_image.jpg"/>
         </div>
         <div id="big_image_title">Anna&nbsp;&amp; Maria, La Giudecca, Venice</div>
       </div>
