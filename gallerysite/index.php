@@ -3,7 +3,6 @@
   template_first_part("");
 ?>
 <!-- TODO: footer and header into separate html files and link from other pages
-Where is "position: fixed; top: 0px; left: 0px; height: 0px; width: 0px; z-index: 1e+07; "?
 
 -->
 <div id="container">
@@ -76,11 +75,9 @@ Where is "position: fixed; top: 0px; left: 0px; height: 0px; width: 0px; z-index
 <!--    </div>-->
   </div>
   <div id="footer">
-<!--    <div class="two_columns">-->
       <div class="left_column">
       </div>
       <div class="right_column">
-<!--         menu-->
         <table id="menu">
           <tr>
             <td><a href="index.php">Home</a></td>
@@ -92,7 +89,6 @@ Where is "position: fixed; top: 0px; left: 0px; height: 0px; width: 0px; z-index
         </table>
       </div>
     </div>
-<!--  </div>-->
   </div>
 
 <?php

@@ -15,14 +15,14 @@
   orphans: 0;
   text-align: center;
   font-family: 'Garamond Premier Pro';
-  color: #613104;
+  color: #663300;
+/*    #613104;*/
   font-size: 12px;
 /*  vertical-align: */
 }
 
 #container {
   padding: 1% 1% 0px 1%;
-
 }
 
 #header {
@@ -61,7 +61,6 @@
 #header_title {
   color: white;
   font-size: XX-large;
-  
 }
 
 #header_subtitle {
@@ -97,7 +96,8 @@
 }
 
 #menu a {
-  color: #613104;
+  color: #663300;
+/*    #613104;*/
   font-size: 14px;
   text-decoration: none;
 }
