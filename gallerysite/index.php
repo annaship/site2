@@ -11,8 +11,11 @@ Where is "position: fixed; top: 0px; left: 0px; height: 0px; width: 0px; z-index
     <div class="left_column">
     </div>
     <div class="right_column">
+<!--      <div id="header_title">Holly Smith Pedlosky
+        <div id="header_subtitle">Photographer</div>
+      </div>-->
       <div id="title_img">
-        <img alt="Holly Smith Pedlosky" src="images/header/header.jpg"/>
+        <img alt="Holly Smith Pedlosky. Photographer" src="images/header/header.jpg"/>
       </div>
     </div>
   </div>

@@ -58,6 +58,16 @@
 
 /* Page elements */
 
+#header_title {
+  color: white;
+  font-size: XX-large;
+  
+}
+
+#header_subtitle {
+  font-size: X-large;
+}
+
 #title_img {
   padding-top: 1%;
 }
