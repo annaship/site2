@@ -65,27 +65,33 @@
 }*/
 
 #title_img {
-  padding-top: 3px;
+  padding-top: 1%;
+/*    3px;*/
 }
 
 #title_img img {
-  height: 85px;
+  height: 85%;
+/*    85px;*/
 }
 
 #big_img {
-  padding-top: 30px;
+  padding-top: 6%;
+/*    30px;*/
 }
 
 #big_img img {
-  width: 500px;
+  width: 88%;
+/*    500px;*/
 }
 
 #big_image_title {
-  padding-top: 10px;
+  padding-top: 3%
+/*    10px;*/
 }
 
 #menu {
-  padding-top: 30px;
+  padding-top: 5%
+/*    30px;*/
 }
 
 #menu td {
