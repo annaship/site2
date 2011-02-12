@@ -7,14 +7,14 @@
   margin: 0px;
   border: 0px;
   background-color: #ccc7c1;
-  height: 590px;
-  width: 800px;
+  height: 680px;
+  width: 990px;
   margin-left: auto;
   margin-right: auto;
   widows: 0;
   orphans: 0;
   text-align: center;
-  font-family: 'Garamond Premier Pro', sans-serif;
+  font-family: 'Garamond Premier Pro';
   color: #613104;
   font-size: 12px;
 /*  vertical-align: */
@@ -103,4 +103,36 @@
   color: #613104;
   font-size: 11px;
   text-decoration: none;
+}
+
+/*left_home_menu*/
+
+#left_menu ul {
+  list-style-type: none;
+  padding-left: 10px;
+  padding-top: 3px;
+}
+
+#first_level {
+  font-size: 18px;
+}
+
+#first_level li {
+  padding-top: 10px;
+}
+
+#second_level {
+  font-size: 14px;
+}
+
+#second_level li {
+  padding-top: 3px;
+}
+
+#third_level {
+  font-size: 12px;
+}
+
+#third_level li {
+  padding-top: 3px;
 }
