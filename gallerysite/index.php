@@ -19,7 +19,8 @@
       <div class="left_column">xxd
 <!--text home thumbs tab-->
       </div>
-      <div class="right_column">xxa
+      <div class="right_column">
+        <img alt="" src="images/content/bigimg.jpg"/>
 <!--        big img and title-->
       </div>
     </div>

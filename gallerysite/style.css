@@ -21,7 +21,8 @@
   margin-left: 5px;
   margin-right: 5px;
   height: 100%;
-/*  padding-top: 20px;*/
+/*  padding-top: 35px;*/
+/* 35 px border from top*/
 }
 
 #container .left_column {
@@ -51,6 +52,13 @@
 
 #content .right_column {
   border-bottom: none;
+}
+
+#content img {
+height: 90%;
+width: 66%;
+margin-left: 66px;
+margin-top: 30px;
 }
 
 #footer {
