@@ -110,6 +110,11 @@
   padding-top: 3px;
 }
 
+#left_menu ul a {
+  color: #663300;
+  text-decoration: none;
+}
+
 #first_level {
   font-size: 32px;
   margin-top: 15px;
@@ -134,4 +139,27 @@
 
 #third_level li {
   padding-top: 3px;
+}
+
+/* Galleries */
+
+#thumbs {
+  table-layout: fixed;
+  margin-top: 11px;
+}
+
+#thumbs td {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 105px !important;
+}
+
+#thumbs img {
+  width: 100% !important;
+}
+
+#BigOne {
+  margin-top: 12px;
 }
