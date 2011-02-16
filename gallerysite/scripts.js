@@ -24,7 +24,7 @@ function change_big_one(thumb){
 }
 
 function findimg()
-{ 
+{
   var i, my_obj;
   my_obj = document.getElementById("thumbs").getElementsByTagName('img');
   for (i=0; i<my_obj.length; i++)
@@ -41,8 +41,6 @@ function findimg()
 }
 
 window.onload = function() {
- highlightLink();
- my_popup();
  findimg();
 }
 

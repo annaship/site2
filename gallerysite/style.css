@@ -2,12 +2,12 @@
 
 /* Structure */
 
+
 #page {
   padding: 0px;
   margin: 0px;
   border: 0px;
   background-color: #ccc7c1;
-  height: 680px;
   width: 990px;
   margin-left: auto;
   margin-right: auto;
@@ -19,6 +19,14 @@
 /*    #613104;*/
   font-size: 12px;
 /*  vertical-align: */
+}
+
+#index_page #content {
+  height: 510px;
+}
+
+#gallery_page #content {
+  height: 750px;
 }
 
 #container {
@@ -145,7 +153,10 @@
 
 #thumbs {
   table-layout: fixed;
-  margin-top: 11px;
+  margin-top: 81px;
+/*  margin-left: 11px;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #thumbs td {
@@ -162,4 +173,10 @@
 
 #BigOne {
   margin-top: 12px;
+}
+
+#galleries_title {
+  margin-top: 12px;
+  font-size: 24px;
+  font-variant: small-caps;
 }

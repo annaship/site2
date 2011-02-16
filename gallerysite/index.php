@@ -2,6 +2,7 @@
   include_once 'template.php';
   template_first_part("");
 ?>
+<div id="index_page">
   <div id="content">
     <div class="left_column">
       <div id="left_menu">
@@ -9,7 +10,7 @@
           <ul id="first_level">
             <li>Galleries:</li>
             <ul id="second_level">
-              <li>Casalinghe:</li>
+              <li><a href="casalinghe.php">Casalinghe:</a></li>
               <ul id="third_level"><li>Italian Housewives</li>
               </ul>
             </ul>
@@ -55,6 +56,7 @@
       <div id="big_image_title">Anna&nbsp;&amp; Maria, La Giudecca, Venice</div>
     </div>
   </div>
+</div>
 <?php
   template_last_part()
 ?>

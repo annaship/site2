@@ -2,6 +2,7 @@
   include_once 'template.php';
   template_first_part("");
 ?>
+<div id="gallery_page">
   <div id="content">
     <div class="left_column">
 
@@ -33,12 +34,15 @@
       </table>
     </div>
     <div class="right_column">
-      <div id="galleries_title"></div>
-      <div id="big_img">
+      <div id="galleries_title">The Art of Hanging Laundry:<br/>
+        in Venice, Italy
+      </div>
+      <div id="big_img_one">
         <img id="BigOne" src="images/galleries/venetian_laundry/01_hsp.jpg" alt="Calle Stella, Castello"/>
       </div>
     </div>
   </div>
+</div>
 <?php
   template_last_part()
 ?>
