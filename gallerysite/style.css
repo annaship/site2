@@ -171,8 +171,15 @@
   width: 100% !important;
 }
 
+#big_img_one img {
+  max-width: 630px !important;
+}
+
+
 #BigOne {
   margin-top: 12px;
+/*  width: 92%;*/
+
 }
 
 #galleries_title {
