@@ -8,27 +8,27 @@
 
       <table id="thumbs">
         <tr>
-          <td><img src="images/galleries/venetian_laundry/01_hsp_thumb.jpg"
+          <td><img src="images/galleries/laundry/01_lau_thumb.jpg"
                    alt="Calle Stella, Castello"/></td>
-          <td><img src="images/galleries/venetian_laundry/02_hsp_thumb.jpg"
+          <td><img src="images/galleries/laundry/02_lau_thumb.jpg"
                    alt="Bikinis on Line, Castello"/></td>
         </tr>
         <tr>
-          <td><img src="images/galleries/venetian_laundry/03_hsp_thumb.jpg"
+          <td><img src="images/galleries/laundry/03_lau_thumb.jpg"
                    alt="Panty Hose on Line, Giudecca"/></td>
-          <td><img src="images/galleries/venetian_laundry/04_hsp_thumb.jpg"
+          <td><img src="images/galleries/laundry/04_lau_thumb.jpg"
                    alt="Bra on Line, Burano"/></td>
         </tr>
         <tr>
-          <td><img src="images/galleries/venetian_laundry/05_hsp_thumb.jpg"
+          <td><img src="images/galleries/laundry/05_lau_thumb.jpg"
                    alt="Anna&nbsp;&amp; the Winning Lottery Ticket"/></td>
-          <td><img src="images/galleries/venetian_laundry/06_hsp_thumb.jpg"
+          <td><img src="images/galleries/laundry/06_lau_thumb.jpg"
                    alt="Anna&nbsp;&amp; Maria"/></td>
         </tr>
         <tr>
-          <td><img src="images/galleries/venetian_laundry/07_hsp_thumb.jpg"
+          <td><img src="images/galleries/laundry/07_lau_thumb.jpg"
                    alt="Sheets on Line, Dorsoduro"/></td>
-          <td><img src="images/galleries/venetian_laundry/08_hsp_thumb.jpg"
+          <td><img src="images/galleries/laundry/08_lau_thumb.jpg"
                    alt="Giulia&#39;s Line, Dorsoduro"/></td>
         </tr>
       </table>
@@ -38,7 +38,7 @@
         in Venice, Italy
       </div>
       <div id="big_img_one">
-        <img id="BigOne" src="images/galleries/venetian_laundry/01_hsp.jpg" alt="Calle Stella, Castello"/>
+        <img id="BigOne" src="images/galleries/laundry/01_lau.jpg" alt="Calle Stella, Castello"/>
       </div>
     </div>
   </div>

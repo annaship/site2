@@ -11,18 +11,19 @@
             <li>Galleries:</li>
             <ul id="second_level">
               <li><a href="casalinghe.php">Casalinghe:</a></li>
-              <ul id="third_level"><li>Italian Housewives</li>
+              <ul id="third_level"><li><a href="casalinghe.php">Italian Housewives</a></li>
               </ul>
             </ul>
             <ul id="second_level">
-              <li>Panoramas:</li>
-              <ul id="third_level"><li>The Life in Death in Venice</li>
-                  <li>Venetian Spaces: Openings</li>
+              <li><a href="spaces.php">Panoramas:</a></li>
+              <ul id="third_level">
+                <li><a href="spaces.php">The Life in Death in Venice</a></li>
+                <li><a href="spaces.php">Venetian Spaces: Openings</a></li>
               </ul>
             </ul>
             <ul id="second_level">
               <li><a href="venetian_laundry.php">Venetian Laundry</a></li>
-              <ul id="third_level"><li>&amp; the Art of Hanging it</li>
+              <ul id="third_level"><li><a href="venetian_laundry.php">&amp; the Art of Hanging it</a></li>
               </ul>
             </ul>
             <ul id="second_level">
