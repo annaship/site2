@@ -21,16 +21,17 @@ function template_first_part($title) {
       <script src="scripts.js"></script>
   </head>
   <body>
-    <div id = "page">
-      <div id="container">
+    <div id="container">
  ';
 include("header.html");
+  echo '<div id="content">';
+
 }
 
 function template_last_part() {
- include("footer.html");
+  echo '</div>';
+  include("footer.html");
   echo '  </div>
-    </div>
   </body>
   </html>
   ';

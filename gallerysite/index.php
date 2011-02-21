@@ -2,8 +2,8 @@
   include_once 'template.php';
   template_first_part("");
 ?>
-<div id="index_page">
-  <div id="content">
+<!--<div id="index_page">-->
+<!--  <div id="content">-->
     <div class="left_column">
       <div id="left_menu">
 <!--          <ul id="left_menu">-->
@@ -55,8 +55,8 @@
         <img alt="Anna&nbsp;&amp; Maria, La Giudecca, Venice" src="images/home_page/big_image.jpg"/>
       </div>
       <div id="big_image_title">Anna&nbsp;&amp; Maria, La Giudecca, Venice</div>
-    </div>
-  </div>
+<!--    </div>-->
+<!--  </div>-->
 </div>
 <?php
   template_last_part()
