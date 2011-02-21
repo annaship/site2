@@ -33,9 +33,7 @@
       </table>
     </div>
     <div class="right_column">
-      <div id="galleries_title">The Life in Death in Venice<br/>
-        Venetian Spaces: Openings
-      </div>
+      <div id="galleries_title">The Life in Death in Venice</div>
       <div id="big_img_one">
         <img id="BigOne" src="images/galleries/spaces/01_spc.jpg" alt="Misericordia"/>
       </div>
