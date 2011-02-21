@@ -21,6 +21,8 @@
 /*  vertical-align: */
 }
 
+/*insert margin 0 padding 0 everywhere*/
+
 #index_page #content {
   height: 510px;
 }
@@ -41,18 +43,62 @@
 }
 
 #content {
-  height: 72%;
+  height: 75%;
 }
 
 #footer {
   height: 10%;
 }
 
+/*.two_columns_header {
+  height: 100%;
+}*/
+
+#wers {
+  width: 100%;
+  float: left;
+  text-align: left;
+/*  vertical-align: top;*/
+/*  border-right-color: #bdb4ad;
+  border-right-style: solid;
+  border-right-width: 1px;*/
+/*  min-height: 100%;
+  height: auto !important;*/
+  height: 100%;
+/*  padding-top: 1%;
+  height: 85%;*/
+/*
+html>body*/
+}
+
+.left_column_header {
+  width: 30%;
+  float: left;
+  text-align: left;
+/*  vertical-align: top;*/
+  border-right-color: #bdb4ad;
+  border-right-style: solid;
+  border-right-width: 1px;
+/*  min-height: 100%;
+  height: auto !important;*/
+  height: 100%;
+/*
+html>body*/
+}
+
+.right_column_header {
+  width: 70%;
+  float: right;
+  vertical-align: middle;
+  text-align: center;
+  height: 100%;
+}
+
 .left_column {
   border-right-color: #bdb4ad;
   border-right-style: solid;
   border-right-width: 1px;
-  width: 29%;
+  width: 30%;
   float: left;
   text-align: left;
   height: 100%;
@@ -62,6 +108,7 @@
   width: 70%;
   float: right;
   vertical-align: middle;
+  height:  100%;
 }
 
 /* Page elements */

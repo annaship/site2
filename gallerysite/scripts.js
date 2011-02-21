@@ -31,6 +31,7 @@ function findimg()
   {
     my_obj[i].onmouseover = function() {change_big_one(this);}
   }
+//  for IE need to do selector
   //  var sels = document.getElementsByTagName("SELECT");
 //for(var i = 0, maxI = sels.length; i < maxI; ++i) {
 //  var sel = sels[i];
