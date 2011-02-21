@@ -1,4 +1,8 @@
-/* text-color: #613104  */
+/* 
+  text-color: #613104  // dark-brown
+  background-color: #cac7c0; // light-brown
+
+*/
 
 /* Structure */
 
@@ -7,7 +11,7 @@
   padding: 0px;
   margin: 0px;
   border: 0px;
-  background-color: #ccc7c1;
+  background-color: #cac7c0;
   width: 990px;
   margin-left: auto;
   margin-right: auto;
@@ -16,9 +20,7 @@
   text-align: center;
   font-family: 'Garamond Premier Pro';
   color: #663300;
-/*    #613104;*/
   font-size: 12px;
-/*  vertical-align: */
 }
 
 /*insert margin 0 padding 0 everywhere*/
