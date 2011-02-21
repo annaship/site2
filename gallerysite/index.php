@@ -33,9 +33,9 @@
               </ul>
             </ul>
             <ul id="second_level">
-              <li>The Reitia Project:</li>
+              <li><a href="http://pedlosky.org">The Reitia Project:</a></li>
               <ul id="third_level">
-                <li>Women&nbsp;&amp; Fabric<br/>&nbsp;&nbsp;in Venetian Art</li>
+                <li><a href="http://pedlosky.org">Women&nbsp;&amp; Fabric<br/>&nbsp;&nbsp;in Venetian Art</a></li>
               </ul>
             </ul>
           </ul>
