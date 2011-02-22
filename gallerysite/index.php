@@ -18,7 +18,7 @@
               <li><a href="spaces.php">Panoramas:</a></li>
               <ul id="third_level">
                 <li><a href="spaces.php">The Life in Death in Venice</a></li>
-                <li><a href="spaces.php">Venetian Spaces: Openings</a></li>
+                <li><a href="">Venetian Spaces: Openings</a></li>
               </ul>
             </ul>
             <ul id="second_level">
@@ -27,9 +27,9 @@
               </ul>
             </ul>
             <ul id="second_level">
-              <li>Galleggianti:</li>
+              <li><a href="">Galleggianti:</a></li>
               <ul id="third_level">
-                <li>Floating Photographic<br/>&nbsp;&nbsp;Emulsions</li>
+                <li><a href="">Floating Photographic<br/>&nbsp;&nbsp;Emulsions</a></li>
               </ul>
             </ul>
             <ul id="second_level">
@@ -40,10 +40,10 @@
             </ul>
           </ul>
           <ul id="first_level">
-            <li>Workshops:</li>
+            <li><a href="">Workshops:</a></li>
             <ul id="second_level">
-              <li>Venice, Italy</li>
-              <ul id="third_level"><li>September 17-28, 2011</li>
+              <li><a href="">Venice, Italy</a></li>
+              <ul id="third_level"><li><a href="">September 17-28, 2011</a></li>
               </ul>
             </ul>
           </ul>
