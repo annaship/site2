@@ -1,10 +1,32 @@
-<?php
-  include_once 'template.php';
-  template_first_part("");
-?>
-<!--<div id="index_page">-->
-<!--  <div id="content">-->
-    <div class="left_column">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Your title here</title>
+  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="css/text.css"/>
+  <link rel="stylesheet" href="css/ninetysix.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+
+<div id="header" class="container_12">
+
+<div id="left-header" class="grid_4 ">
+</div>
+
+<div id="right-header" class="grid_8 push_6">
+  <div id="title_img">
+    <img alt="Holly Smith Pedlosky. Photographer" src="images/header/header.jpg"/>
+  </div>
+</div>
+
+</div>
+<!--<hr/>-->
+<div class="clear"> </div>
+<div id="content" class="container_12">
+
+<div id="left-content" class="grid_4 ">
       <div id="left_menu">
 <!--          <ul id="left_menu">-->
           <ul id="first_level">
@@ -49,15 +71,41 @@
           </ul>
 <!--          </ul>-->
       </div>
-    </div>
-    <div class="right_column">
+</div>
+
+<div id="right-content" class="grid_8 ">
       <div id="big_img">
         <img alt="Anna&nbsp;&amp; Maria, La Giudecca, Venice" src="images/home_page/big_image.jpg"/>
       </div>
       <div id="big_image_title">Anna&nbsp;&amp; Maria, La Giudecca, Venice</div>
-<!--    </div>-->
-<!--  </div>-->
 </div>
-<?php
-  template_last_part()
-?>
+
+</div>
+
+
+
+<div id="footer" class="container_12">
+
+<div id="left-footer" class="grid_4 ">
+  
+</div>
+
+<div id="right-footer" class="grid_8">
+  <div id="bottom_menu">
+    <table id="menu">
+      <tr>
+        <td><a href="index.php">Home</a></td>
+        <td><a href="about_work.php">About the Work</a></td>
+        <td><a href="about_artist.php">About the Artist</a></td>
+        <td><a href="order.php">Order a Photograph</a></td>
+        <td><a href="contact.php">Contact Holly</a></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+</div>
+
+
+</body>
+</html>
