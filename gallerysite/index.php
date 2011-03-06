@@ -27,6 +27,7 @@
 <div id="content" class="container_12">
 
 <div id="left-content" class="grid_4 ">
+  <div id="menu">
       <div id="left_menu">
 <!--          <ul id="left_menu">-->
           <ul id="first_level">
@@ -71,6 +72,7 @@
           </ul>
 <!--          </ul>-->
       </div>
+    </div>
 </div>
 
 <div id="right-content" class="grid_8 ">
@@ -81,6 +83,7 @@
 </div>
 
 </div>
+<!--<div class="clear"></div>-->
 
 
 
@@ -100,6 +103,7 @@
     </table>
   </div>
 </div>
+<div class="clear"></div> <!-- Important! -->
 
 </div>
 
