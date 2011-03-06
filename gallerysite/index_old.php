@@ -1,13 +1,10 @@
 <?php
   include_once 'template.php';
-  template_first_part("Title here");
+  template_first_part("");
 ?>
-
-<div id="content" class="container_12">
-
-<div id="left-content" class="grid_4 ">
-  <div id="left-content-div">
-  <div id="menu">
+<!--<div id="index_page">-->
+<!--  <div id="content">-->
+    <div class="left_column">
       <div id="left_menu">
 <!--          <ul id="left_menu">-->
           <ul id="first_level">
@@ -53,19 +50,14 @@
 <!--          </ul>-->
       </div>
     </div>
-  </div>
-</div>
-
-<div id="right-content" class="grid_8 ">
+    <div class="right_column">
       <div id="big_img">
         <img alt="Anna&nbsp;&amp; Maria, La Giudecca, Venice" src="images/home_page/big_image.jpg"/>
       </div>
       <div id="big_image_title">Anna&nbsp;&amp; Maria, La Giudecca, Venice</div>
+<!--    </div>-->
+<!--  </div>-->
 </div>
-
-</div>
-<!--<div class="clear"></div>-->
-
 <?php
   template_last_part()
 ?>

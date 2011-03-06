@@ -102,9 +102,9 @@
 }
 
 #first_level {
-  font-size: 32px;
+  font-size: 30px;
   margin-top: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 #first_level li {
@@ -116,7 +116,7 @@
 }
 
 #second_level li {
-  padding-top: 3px;
+  padding-top: 2px;
 }
 
 #third_level {

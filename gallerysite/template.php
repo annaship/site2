@@ -1,9 +1,9 @@
 <?php
 function template_first_part($title) {
   echo '
-  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-  <html>
-    <head>
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta name="Description" content="Holly Smith Pedlosky. Photographer"/>
       <meta name="keywords" content="italy, photo, photographer, venice,
@@ -17,21 +17,19 @@ function template_first_part($title) {
       piazza san marco, gondola, vaporetto, zattere, giudecca,
       basilica san marco, palazzo papadopoli."/>
       <title>' . $title . '</title>
-      <link rel="stylesheet" href="style.css">
-      <script src="scripts.js"></script>
-  </head>
-  <body>
-    <div id="container">
+  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="css/text.css"/>
+  <link rel="stylesheet" href="css/ninetysix.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
  ';
 include("header.html");
-  echo '<div id="content">';
-
 }
 
 function template_last_part() {
-  echo '</div>';
   include("footer.html");
-  echo '  </div>
+  echo '
   </body>
   </html>
   ';
