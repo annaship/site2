@@ -18,9 +18,17 @@
   border-left-color: #bdb4ad;
   border-left-style: solid;
   border-left-width: 1px;
-  margin-left: -2px;
+  margin-left: -1px;
+}
+
+#left-header, #left-content, #left-footer{
+  border-right-color: #bdb4ad;
+  border-right-style: solid;
+  border-right-width: 1px;
+  margin-right: -1px;
 
 }
+
 
  #left-content, #right-content {
   border-top-color: #bdb4ad;
@@ -29,7 +37,7 @@
   margin-top: -1px;
 }
 
-#left-content-borders {
+#left-content {
 	width: 310px;
   margin-right: 0px;
 }
