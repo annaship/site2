@@ -6,7 +6,6 @@
 <div id="content" class="container_12">
 
 <div id="left-content" class="grid_4 ">
-  <div id="left-content-div">
   <div id="menu">
       <div id="left_menu">
 <!--          <ul id="left_menu">-->
@@ -53,7 +52,6 @@
 <!--          </ul>-->
       </div>
     </div>
-  </div>
 </div>
 
 <div id="right-content" class="grid_8 ">
