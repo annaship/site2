@@ -6,73 +6,34 @@
 
 /* Structure */
 
-/*html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
-  margin: 0;
-  padding: 0
-}
-table {
-  border-collapse: collapse; border-spacing: 0
-}
-fieldset, img {
-  border: 0
-}
-ol, ul {
-  list-style: none
-}
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-  font-weight: normal
-}*/
-
-/*body {
-  background-color: #cac7c0;
-  font-family: 'Garamond Premier Pro';
-  color: #663300;
-  font-size: 12px;
-}*/
-
-/*#container {
-  width: 982px; 
-  margin: 0 auto;
-}*/
-
-/*#header {
-  height: 90px;
-  border-bottom-color: #bdb4ad;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-}*/
-
-/*#footer {
-  line-height: 13px;
-}*/
-
-/*#container > #content {
-  min-height: 460px;
-  height: auto !important;
-  height: 460px
-}
-
-#content #page-content {
-  width: 982px;
-}*/
-
-/*.left_column {
-  border-right-color: #bdb4ad;
-  border-right-style: solid;
-  border-right-width: 1px;
-  width: 29%;
-  float: left;
-  text-align: left;
-
-}*/
-
-/*.right_column {
-  width: 70%;
-  float: right;
-  vertical-align: middle;
+#right-header {
   text-align: center;
-}*/
+}
+
+#right-content {
+  text-align: center;
+}
+
+#right-header, #right-content, #right-footer{
+  border-left-color: #bdb4ad;
+  border-left-style: solid;
+  border-left-width: 1px;
+  margin-left: -2px;
+
+}
+
+ #left-content-div, #right-content {
+  border-top-color: #bdb4ad;
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin-top: -1px;
+}
+
+#left-content-div {
+	width: 310px;
+  margin-right: 0px;
+}
+
 
 /* Page elements */
 /*
@@ -204,33 +165,5 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 12px;
   font-size: 24px;
   font-variant: small-caps;
-}
-
-#right-header {
-  text-align: center;
-}
-
-#right-content {
-  text-align: center;
-}
-
-#right-header, #right-content, #right-footer{
-  border-left-color: #bdb4ad;
-  border-left-style: solid;
-  border-left-width: 1px;
-  margin-left: -2px;
-
-}
-
- #left-content, #right-content {
-  border-top-color: #bdb4ad;
-  border-top-style: solid;
-  border-top-width: 1px;
-  margin-top: -1px;
-}
-
-#left-content {
-	width: 310px;
-  margin-right: 0px;
 }
 
