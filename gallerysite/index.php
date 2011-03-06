@@ -15,7 +15,7 @@
 <div id="left-header" class="grid_4 ">
 </div>
 
-<div id="right-header" class="grid_8 push_6">
+<div id="right-header" class="grid_8 push_4">
   <div id="title_img">
     <img alt="Holly Smith Pedlosky. Photographer" src="images/header/header.jpg"/>
   </div>
@@ -86,12 +86,9 @@
 
 <div id="footer" class="container_12">
 
-<div id="left-footer" class="grid_4 ">
-  
-</div>
-
 <div id="right-footer" class="grid_8">
   <div id="bottom_menu">
+
     <table id="menu">
       <tr>
         <td><a href="index.php">Home</a></td>
