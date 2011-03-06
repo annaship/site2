@@ -22,14 +22,14 @@
 
 }
 
- #left-content-div, #right-content {
+ #left-content, #right-content {
   border-top-color: #bdb4ad;
   border-top-style: solid;
   border-top-width: 1px;
   margin-top: -1px;
 }
 
-#left-content-div {
+#left-content {
 	width: 310px;
   margin-right: 0px;
 }

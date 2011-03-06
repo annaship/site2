@@ -21,6 +21,7 @@ function template_first_part($title) {
   <link rel="stylesheet" href="css/text.css"/>
   <link rel="stylesheet" href="css/ninetysix.css"/>
   <link rel="stylesheet" href="css/style.css"/>
+  <script src="scripts.js"></script>
 </head>
 <body>
  ';
