@@ -14,27 +14,35 @@
   <table id="thumbs">
       <tr>
        <td><img src="images/galleries/spaces/space_01_thumb.jpg"
-                alt="Misericordia"/></td>
+                alt="Biennale sculpture"
+                title="Scuola della Misericordia, Biennale 2009"/></td>
        <td><img src="images/galleries/spaces/space_02_thumb.jpg"
-                alt="Glass globes"/></td>
+                alt="Biennale sculpture"
+                title="Palazzo Papafava, Biennale 2009"/></td>
       </tr>
       <tr>
        <td><img src="images/galleries/spaces/space_03_thumb.jpg"
-                alt="Papafava"/></td>
+                alt="Entryway, palazzo"
+                title="Palazzo Papafava, Cannaregio"/></td>
        <td><img src="images/galleries/spaces/space_04_thumb.jpg"
-                alt="Arsenale"/></td>
+                alt="Renaissance shipyard workshop in renovation"
+                title="Capanna, Arsenale"/></td>
       </tr>
       <tr>
        <td><img src="images/galleries/spaces/space_05_thumb.jpg"
-                alt="Troughs"/></td>
+                alt="Ruin, Arsenale"
+                title="Abandoned Workers’ Bathroom, Arsenale"/></td>
        <td><img src="images/galleries/spaces/space_06_thumb.jpg"
-                alt="Bathroom"/></td>
+                alt="Ruin, Arsenale"
+                title="Abandoned Workers’ Bathroom 2, Arsenale"/></td>
       </tr>
       <tr>
        <td><img src="images/galleries/spaces/space_07_thumb.jpg"
-                alt="Nativity"/></td>
+                alt="Ruin, Giudecca dockyard"
+                title="Abandoned Dockyard, Giudecca"/></td>
        <td><img src="images/galleries/spaces/space_08_thumb.jpg"
-                alt="Evangelista sculpture"/></td>
+                alt="Sculpture in a gallery"
+                title="Gallery, San Giovanni Evangelista"/></td>
       </tr>
     </table>
 </div>
@@ -42,7 +50,8 @@
 <div id="right-content" class="grid_8 ">
   <div id="galleries_title">The Life in Death in Venice</div>
   <div id="big_img_one">
-    <img id="BigOne" src="images/galleries/spaces/space_01.jpg" alt="Misericordia"/>
+    <img id="BigOne" src="images/galleries/spaces/space_01.jpg" alt="Biennale sculpture"/>
+    <div id="big-img-title">Scuola della Misericordia, Biennale 2009</div>
   </div>
 </div>
 

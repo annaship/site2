@@ -166,6 +166,12 @@
 
 /* Galleries */
 
+#galleries_title {
+  margin-top: 12px;
+  font-size: 24px;
+/*  font-variant: small-caps;*/
+}
+
 #thumbs {
   table-layout: fixed;
   margin-top: 21px;
@@ -202,9 +208,10 @@
 
 }
 
-#galleries_title {
+#big-img-title {
   margin-top: 12px;
-  font-size: 24px;
-/*  font-variant: small-caps;*/
+  font-size: 18px;
 }
+
+
 
