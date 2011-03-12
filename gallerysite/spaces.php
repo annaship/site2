@@ -7,12 +7,11 @@
 
 <div id="left-content" class="grid_4 ">
   <div id="left-title">
-  <div id="left-title-big">
-    Venetian Spaces:
+    <div id="left-title-big">
+      Panoramas
+    </div>
   </div>
-  <div id="left-title-small">Panoramas</div>
-  </div>
-    <table id="thumbs">
+  <table id="thumbs">
       <tr>
        <td><img src="images/galleries/spaces/space_01_thumb.jpg"
                 alt="Misericordia"/></td>
