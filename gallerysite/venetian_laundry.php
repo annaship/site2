@@ -6,6 +6,11 @@
 <div id="content" class="container_12">
 
 <div id="left-content" class="grid_4 ">
+  <div id="left-title">
+    <div id="left-title-big">
+      Venice, Italy
+    </div>
+  </div>
   <table id="thumbs">
     <tr>
       <td><img src="images/galleries/laundry/01_lau_thumb.jpg"
@@ -35,8 +40,7 @@
 </div>
 
 <div id="right-content" class="grid_8 ">
-  <div id="galleries_title">The Art of Hanging Laundry:<br/>
-    in Venice, Italy
+  <div id="galleries_title">The Art of Hanging Laundry
   </div>
   <div id="big_img_one">
     <img id="BigOne" src="images/galleries/laundry/01_lau.jpg" alt="Calle Stella, Castello"/>

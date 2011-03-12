@@ -13,7 +13,7 @@
             <li>Galleries:</li>
             <ul id="second_level">
               <li><a href="casalinghe.php">Casalinghe:</a></li>
-              <ul id="third_level"><li><a href="casalinghe.php">Italian Housewives</a></li>
+              <ul id="third_level"><li><a href="casalinghe.php">Housewives&nbsp;&amp; Sibyls</a></li>
               </ul>
             </ul>
             <ul id="second_level">
