@@ -1,6 +1,6 @@
 /* 
   text-color: #613104  // dark-brown
-  background-color: cdc9c2; // light-brown
+  background-color: #cac7c0; // light-brown, see text.css
 
 */
 
@@ -69,6 +69,10 @@
   text-align: center;
   padding-top: 4%;
 
+}
+
+#left_title_em {
+  font-style: italic;
 }
 
 #left-title-big {
@@ -164,7 +168,7 @@
 
 #thumbs {
   table-layout: fixed;
-  margin-top: 81px;
+  margin-top: 21px;
 /*  margin-left: 11px;*/
   margin-left: auto;
   margin-right: auto;
@@ -182,6 +186,10 @@
   width: 100% !important;
 }
 
+#big_img_one {
+  vertical-align: middle;
+}
+
 #big_img_one img {
   max-width: 600px !important;
   max-height: 673px !important;
@@ -197,6 +205,6 @@
 #galleries_title {
   margin-top: 12px;
   font-size: 24px;
-  font-variant: small-caps;
+/*  font-variant: small-caps;*/
 }
 
