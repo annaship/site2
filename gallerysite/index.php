@@ -29,23 +29,23 @@
               </ul>
             </ul>
             <ul id="second_level">
-              <li><a href="">Galleggianti:</a></li>
+              <li><a href="http://www.photographyatelier.org/Atelier05-SITE/Holly/Index.htm">Galleggianti:</a></li>
               <ul id="third_level">
-                <li><a href="">Floating Photographic<br/>&nbsp;&nbsp;Emulsions</a></li>
+                <li><a href="http://www.photographyatelier.org/Atelier05-SITE/Holly/Index.htm">Floating Photographic<br/>&nbsp;&nbsp;Emulsions</a></li>
               </ul>
             </ul>
             <ul id="second_level">
               <li><a href="http://pedlosky.org">The Reitia Project:</a></li>
               <ul id="third_level">
-                <li><a href="http://pedlosky.org">Women&nbsp;&amp; Fabric<br/>&nbsp;&nbsp;in Venetian Art</a></li>
+                <li><a href="http://pedlosky.org/manifoldlaundryhome.html">Women&nbsp;&amp; Fabric<br/>&nbsp;&nbsp;in Venetian Art</a></li>
               </ul>
             </ul>
           </ul>
           <ul id="first_level">
-            <li><a href="">Workshops:</a></li>
+            <li><a href="http://italyphotoworkshops.org/">Workshops:</a></li>
             <ul id="second_level">
-              <li><a href="">Venice, Italy</a></li>
-              <ul id="third_level"><li><a href="">September 17-28, 2011</a></li>
+              <li><a href="http://italyphotoworkshops.org/">Venice, Italy</a></li>
+              <ul id="third_level"><li><a href="http://italyphotoworkshops.org/">September 17-28, 2011</a></li>
               </ul>
             </ul>
           </ul>
