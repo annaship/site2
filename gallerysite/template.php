@@ -19,7 +19,7 @@ function template_first_part($title) {
       <title>' . $title . '</title>
   <link rel="stylesheet" href="css/reset.css"/>
   <link rel="stylesheet" href="css/text.css"/>
-  <link rel="stylesheet" href="css/ninetysix.css"/>
+  <link rel="stylesheet" href="css/960.css"/>
   <link rel="stylesheet" href="css/style.css"/>
   <script src="scripts.js"></script>
 </head>
