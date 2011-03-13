@@ -215,4 +215,24 @@
 }
 
 
+/* menu-texts */
+
+#menu-text {
+  font-size: 18px;
+  text-align: justify;
+  padding: 20px;
+}
+
+#menu-text p {
+  padding-top: 10px;
+}
+
+#menu-text-title {
+  font-size: 32px;
+}
+
+#title-inside {
+  padding-top: 30px;
+  font-size: 24px;
+}
 
