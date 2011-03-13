@@ -25,11 +25,11 @@ function template_first_part($title) {
 </head>
 <body>
  ';
-include("header.html");
+include("include/header.html");
 }
 
 function template_last_part() {
-  include("footer.html");
+  include("include/footer.html");
   echo '
   </body>
   </html>

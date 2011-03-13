@@ -31,10 +31,10 @@
       <tr>
        <td><img src="images/galleries/spaces/space_05_thumb.jpg"
                 alt="Ruin, Arsenale"
-                title="Abandoned Workers’ Bathroom, Arsenale"/></td>
+                title="Abandoned Workers&#39; Bathroom, Arsenale"/></td>
        <td><img src="images/galleries/spaces/space_06_thumb.jpg"
                 alt="Ruin, Arsenale"
-                title="Abandoned Workers’ Bathroom 2, Arsenale"/></td>
+                title="Abandoned Workers&#39; Bathroom 2, Arsenale"/></td>
       </tr>
       <tr>
        <td><img src="images/galleries/spaces/space_07_thumb.jpg"
