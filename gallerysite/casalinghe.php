@@ -15,35 +15,35 @@
   <table id="thumbs">
     <tr>
       <td><img src="images/galleries/casalinghe/Casalinghe_01_thumb.jpg"
-               title=""
-               alt="Antonia"/></td>
+               title="Margherita, Sant&#39;Erasmo, Venezia"
+               alt="Margherita"/></td>
       <td><img src="images/galleries/casalinghe/Casalinghe_02_thumb.jpg"
-               title=""
-               alt="Carla"/></td>
+               title="Anna&nbsp;&amp; Maria, Giudecca, Venezia"
+               alt="Anna&nbsp;&amp; Maria"/></td>
     </tr>
     <tr>
       <td><img src="images/galleries/casalinghe/Casalinghe_03_thumb.jpg"
-               title=""
-               alt="Carla_hands"/></td>
+               title="Amelia, Dorsoduro, Venezia"
+               alt="Amelia"/></td>
       <td><img src="images/galleries/casalinghe/Casalinghe_04_thumb.jpg"
-               title=""
-               alt="Margherita tomatoes"/></td>
+               title="Venetian Sibyl"
+               alt="Anna"/></td>
     </tr>
     <tr>
       <td><img src="images/galleries/casalinghe/Casalinghe_05_thumb.jpg"
-               title=""
-               alt="Anna&nbsp;&amp; Maria"/></td>
+               title="Antonia, Santa Croce, Venezia"
+               alt="Antonia"/></td>
       <td><img src="images/galleries/casalinghe/Casalinghe_06_thumb.jpg"
-               title=""
-               alt="Giuliana"/></td>
+               title="Carla, Vezio"
+               alt="Carla"/></td>
     </tr>
     <tr>
       <td><img src="images/galleries/casalinghe/Casalinghe_07_thumb.jpg"
-               title=""
-               alt="Lidia Palanca"/></td>
+               title="Lidia, La Giudecca, Venezia"
+               alt="Lidia"/></td>
       <td><img src="images/galleries/casalinghe/Casalinghe_08_thumb.jpg"
-               title=""
-               alt="Anna&nbsp;&amp; the Winning Lottery Ticket"/></td>
+               title="The Winning Lottery Ticket"
+               alt="Anna"/></td>
     </tr>
   </table>
 </div>
@@ -53,8 +53,8 @@
     Venice&nbsp;&amp; the Secrets of Women: the Sibyls
   </div>
   <div id="big_img_one">
-    <img id="BigOne" src="images/galleries/casalinghe/Casalinghe_01.jpg" alt="Antonia"/>
-    <div id="big-img-title">Title HERE</div>
+    <img id="BigOne" src="images/galleries/casalinghe/Casalinghe_01.jpg" alt="Anna&nbsp;&amp; Maria"/>
+    <div id="big-img-title">Anna&nbsp;&amp; Maria, Giudecca, Venezia</div>
   </div>
 
 </div>

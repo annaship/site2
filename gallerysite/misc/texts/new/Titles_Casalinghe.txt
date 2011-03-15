@@ -1,8 +1,8 @@
-Casalinghe Titles:
+﻿Casalinghe Titles:
 
-Margherita, Sant&#39;Erasmo, Venezia
 Anna&nbsp;&amp; Maria, Giudecca, Venezia
 Amelia, Dorsoduro, Venezia
+Margherita, Sant&#36;Erasmo, Venezia
 Venetian Sibyl
 Antonia, Santa Croce, Venezia
 Carla, Vezio
@@ -11,10 +11,10 @@ The Winning Lottery Ticket
 
 
 Alt Text:
-Margherita
 Anna&nbsp;&amp; Maria
 Amelia
-Sibyl 
+Margherita
+Anna 
 Antonia
 Carla
 Lidia
