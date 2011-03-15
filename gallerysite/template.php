@@ -29,7 +29,7 @@ function template_first_part($title) {
 include("include/header.html");
 }
 
-function template_last_part($bottom_menu_type) {
+function template_last_part($bottom_menu_type="") {
   if ($bottom_menu_type == "portfolio") {
     include("include/footer_portfolio.html");
   }

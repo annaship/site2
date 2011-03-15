@@ -45,7 +45,6 @@
 </div>
 
 </div>
-<!--<div class="clear"></div>-->
 
 <?php
   template_last_part()
