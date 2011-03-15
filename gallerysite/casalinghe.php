@@ -53,8 +53,8 @@
     Venice&nbsp;&amp; the Secrets of Women: the Sibyls
   </div>
   <div id="big_img_one">
-    <img id="BigOne" src="images/galleries/casalinghe/Casalinghe_01.jpg" alt="Anna&nbsp;&amp; Maria"/>
-    <div id="big-img-title">Anna&nbsp;&amp; Maria, Giudecca, Venezia</div>
+    <img id="BigOne" src="images/galleries/casalinghe/Casalinghe_01.jpg" alt="Margherita"/>
+    <div id="big-img-title">Margherita, Sant&#39;Erasmo, Venezia</div>
   </div>
 
 </div>
