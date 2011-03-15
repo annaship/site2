@@ -214,6 +214,18 @@
   font-size: 18px;
 }
 
+.price-table {
+  margin-top: 2%;
+}
+
+.big-text {
+/*  font-size: 20px;*/
+  margin-top: 20px;
+}
+
+.cap {
+  font-variant: small-caps;
+}
 
 /* menu-texts */
 

@@ -13,36 +13,36 @@
   </div>
   <table id="thumbs">
     <tr>
-      <td><img src="images/galleries/laundry/01_lau_thumb.jpg"
+      <td><img src="images/galleries/laundry/Laundry_01_thumb.jpg"
                title="Calle Stella, Venezia"
-               alt="Calle Stella, Castello"/></td>
-      <td><img src="images/galleries/laundry/02_lau_thumb.jpg"
+               alt="Sheets&nbsp;&amp; Altar"/></td>
+      <td><img src="images/galleries/laundry/Laundry_02_thumb.jpg"
                title="Castello, Venezia"
-               alt="Bikinis on Line, Castello"/></td>
+               alt="Bikinis on Line"/></td>
     </tr>
     <tr>
-      <td><img src="images/galleries/laundry/03_lau_thumb.jpg"
+      <td><img src="images/galleries/laundry/Laundry_03_thumb.jpg"
                title="Rio dei Carmini, Venezia"
-               alt="Panty Hose on Line, Giudecca"/></td>
-      <td><img src="images/galleries/laundry/04_lau_thumb.jpg"
+               alt="Sheets on Line"/></td>
+      <td><img src="images/galleries/laundry/Laundry_04_thumb.jpg"
                title="La Giudecca, Venezia"
+               alt="Panty Hose on Line"/></td>
+    </tr>
+    <tr>
+      <td><img src="images/galleries/laundry/Laundry_05_thumb.jpg"
+               title="Biancheria, Dorsoduro, Venezia"
+               alt="Sheets&nbsp;&amp; Stockings"/></td>
+      <td><img src="images/galleries/laundry/Laundry_06_thumb.jpg"
+               title="Burano, Venetian Lagoon"
                alt="Bra on Line, Burano"/></td>
     </tr>
     <tr>
-      <td><img src="images/galleries/laundry/05_lau_thumb.jpg"
-               title="Biancheria, Dorsoduro, Venezia"
-               alt="Anna&nbsp;&amp; the Winning Lottery Ticket"/></td>
-      <td><img src="images/galleries/laundry/06_lau_thumb.jpg"
-               title="Burano, Venetian Lagoon"
-               alt="Anna&nbsp;&amp; Maria"/></td>
-    </tr>
-    <tr>
-      <td><img src="images/galleries/laundry/07_lau_thumb.jpg"
+      <td><img src="images/galleries/laundry/Laundry_07_thumb.jpg"
                title="Elvis on Burano, Venetian Lagoon"
-               alt="Sheets on Line, Dorsoduro"/></td>
-      <td><img src="images/galleries/laundry/08_lau_thumb.jpg"
+               alt="Elvis Towel, Burano"/></td>
+      <td><img src="images/galleries/laundry/Laundry_08_thumb.jpg"
                title="Marilyn, Giudecca, Venezia"
-               alt="Giulia&#39;s Line, Dorsoduro"/></td>
+               alt="Marilyn Towel"/></td>
     </tr>
   </table>
 </div>
@@ -51,8 +51,8 @@
   <div id="galleries_title">The Art of Hanging Laundry
   </div>
   <div id="big_img_one">
-    <img id="BigOne" src="images/galleries/laundry/01_lau.jpg" alt="Calle Stella, Castello"/>
-      <div id="big-img-title">Title HERE</div>
+    <img id="BigOne" src="images/galleries/laundry/Laundry_01.jpg" alt="Calle Stella, Venezia"/>
+      <div id="big-img-title">Sheets&nbsp;&amp; Altar</div>
 </div>
 </div>
 
