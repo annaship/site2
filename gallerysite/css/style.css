@@ -107,10 +107,17 @@
   padding-bottom: 2%;
 }
 
-/*#menu {
-}*/
+/* bottom menu */
 
-#menu a {
+#bottom_menu table
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#menu a, #portfolio_menu a {
   color: #663300;
 /*    #613104;*/
   text-decoration: none;
@@ -118,6 +125,14 @@
 
 #menu td {
   padding-left: 30px;
+}
+
+#portfolio_menu td {
+  padding-left: 20px;
+}
+
+.first_td {
+  padding: 0px !important;
 }
 
 #bottom_menu {
@@ -227,7 +242,7 @@
   font-variant: small-caps;
 }
 
-/* menu-texts */
+/* bottom menu-texts */
 
 #menu-text {
   font-size: 18px;

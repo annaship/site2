@@ -58,5 +58,5 @@
 </div>
 
 <?php
-  template_last_part()
+  template_last_part('portfolio')
 ?>
