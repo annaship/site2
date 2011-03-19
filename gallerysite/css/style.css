@@ -192,6 +192,11 @@
   padding-bottom: 10px;
 }
 
+table#menu {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*left_home_menu*/
 
 #left_menu ul {
