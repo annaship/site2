@@ -12,8 +12,8 @@
 </div>
 
 <div id="right-content" class="grid_8 ">
-  <div id="menu-text">
-    <div id="menu-text-title">
+  <div id="right-text">
+    <div id="right-text-title">
     </div>
       
   </div>

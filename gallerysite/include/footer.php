@@ -9,8 +9,13 @@
       <tr>
         <td class="first_td"><a href="index.php">Home</a></td>
         <td><a href="copyright.php">Copyright</a></td>
-          <?php $gallery_file_name = (basename($_SERVER['PHP_SELF'])); ?>
+          <?php $gallery_file_name = (basename($_SERVER['PHP_SELF']));
+            if ($gallery_file_name == "venetian_laundry.php"
+                    || $gallery_file_name == "spaces.php"
+                    || $gallery_file_name == "casalinghe.php") {
+          ?>
         <td><a href=<?php echo "portfolio_" . $gallery_file_name?>>About the Portfolio</a></td>
+          <?php } ?>
         <td><a href="artist.php">About the Artist</a></td>
         <td><a href="order.php">Order a Photograph</a></td>
         <td><a href="mailto:hollysmithpedlosky@italyphotoworkshops.org">Contact Holly</a></td>
