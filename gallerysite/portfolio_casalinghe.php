@@ -26,7 +26,7 @@
       <p>From the Middle Ages on in Italy, the mythology of the Sibyl ripened&nbsp;&amp; deepened. She could be a mysterious sage like the Queen of Sheba, a seductive witch like Circe, a loving mother like Saint Anne, a wrinkled&nbsp;&amp; muscular virago like Michelangelo&#39;s Cumaean Sibyl on the Sistine ceiling. </p>
       <p>Sibyls always had a story to tell, whether or not anyone was listening. In the realm of the psyche, their power was immense. In the public sphere they were often invisible.</p>
       <p>This portfolio is about some Venetian Sibyls.</p>
-      <p>For more about symbolic female power and its connection with hung fabric, please visit my <a href="http://www.pedlosky.org/manifoldlaundryhome.html target='_blank">Manifold Laundry</a> web pages.</p>
+      <p>For more about symbolic female power and its connection with hung fabric, please visit my <a href="http://www.pedlosky.org/manifoldlaundryhome.html" target="_blank">Manifold Laundry</a> web pages.</p>
 
   </div>
 </div>

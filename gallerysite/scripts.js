@@ -45,7 +45,11 @@ function findimg()
 }
 
 window.onload = function() {
- findimg();
+  thisPage = document.URL.substring(document.URL.lastIndexOf("/")+1, document.URL.length);
+  if (thisPage == 'venetian_laundry.php' || thisPage == 'spaces.php'
+      || thisPage == 'casalinghe.php') {
+    findimg();
+  }
 }
 
 // window.onload = function() {
