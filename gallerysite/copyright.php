@@ -1,6 +1,6 @@
 <?php
   include_once 'template.php';
-  template_first_part("Title here");
+  template_first_part("Holly Smith Pedlosky, Photographer");
 ?>
 
 <div id="content" class="container_12">

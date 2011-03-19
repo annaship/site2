@@ -1,6 +1,6 @@
 <?php
   include_once 'template.php';
-  template_first_part("Title here");
+  template_first_part("Holly Smith Pedlosky, Photographer");
 ?>
 
 <div id="content" class="container_12">
@@ -29,7 +29,7 @@
     <p>I continue to teach intensive digital photo workshops in Venice&nbsp;&amp; on Lake Como,
       Italy for the International Center of Photography, based in New York City.
       My next Venice workshop for ICP, Venetian Light&nbsp;&amp; Life: from Within, will be September 17&ndash;28, 2011.
-      For more information, please visit: <a href=http://www.italyphotoworkshops.org>http://www.italyphotoworkshops.org</a>.</p>
+      For more information, please visit: <a href="http://www.italyphotoworkshops.org" target="_blank">http://www.italyphotoworkshops.org</a>.</p>
     <p>I have a BA in Fine Arts from Harvard University, an MA from the University of Colorado in urban 
       planning,&nbsp;&amp; an MFA from the School of the Art Institute of Chicago, where I studied with
       Sonia Landy Sheridan, artist&nbsp;&amp; founder of the Generative Systems program.</p>
@@ -38,7 +38,7 @@
     <div id="title-inside">Holly Smith Pedlosky</div>
     <p>E-mail: <a href="mailto:hollysmithpedlosky@italyphotoworkshops.org">hollysmithpedlosky@italyphotoworkshops.org</a>
       <br/>
-      Websites: <a href="www.italyphotoworkshops.org" target="_blank">www.italyphotoworkshops.org</a>&nbsp;&amp;
+      Websites: <a href="http://www.italyphotoworkshops.org" target="_blank">http://www.italyphotoworkshops.org</a>&nbsp;&amp;
       <a href="http://www.pedlosky.org" target="_blank">http://www.pedlosky.org</a>
     </p>
   </div>
