@@ -1,0 +1,144 @@
+/* 
+    Document   : dropdown_menu
+    Created on : Mar 16, 2011, 10:14:18 PM
+    Author     : ashipunova
+    Description:
+       Drop down menu in a footer
+*/
+
+
+ul#global-navigation {
+  position: absolute;
+  right: 0px; /*���� 18px*/
+  bottom: 0;
+
+/*  top: 0;*/
+/*  border-left: 1px dotted #fff;*/
+/*  font: 9px/18px Verdana, Arial, Helvetica, sans-serif;*/
+  text-align: left;
+  z-index: 50;
+  width: 100%; /*!*/
+}
+
+ul#global-navigation li {
+  position: relative;
+  float: left;
+/*  border-right: 1px dotted #fff;*/
+/*  border-left: 1px dotted #90BDE5;*/
+/*        #93B52B;*/
+}
+
+ul#global-navigation li.first {
+/*  margin-left: 60px;*/
+  float: left;
+}
+
+ul#global-navigation li.last {
+/*    border-right: none;*/
+  float: right;
+}
+
+ul#global-navigation li a.dropdown {
+/*  padding-right: 14px;*/
+/*  background: url(images_from_eol/m_gn_dropdown.gif) right top no-repeat;*/
+}
+
+
+ul#global-navigation ul li a.dropdown:active {
+/*  padding-right: 14px;*/
+/*  background: #fff url(images_from_eol/m_gn_dropdown_hover.gif) right top no-repeat;*/
+/*  color: #000;*/
+}
+
+ul#global-navigation li a strong {
+/*  padding-left: 20px;*/
+/*  padding-bottom: 6px;*/
+/*background: url(images_from_eol/m_gn_myeol_icon.gif) left top no-repeat;*/
+}
+
+ul#global-navigation li a {
+  display: block;
+  overflow: hidden;
+  padding-left: 20px;
+  padding-top: 10px;
+/*  width: 56px;*/
+/*  width: 106px;*/
+  height: 20px;
+/*  text-transform: uppercase;*/
+/*  color: #000;*/
+  text-decoration: none;
+}
+
+ul#global-navigation li a.larger {
+  display: block;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-top: 1px;
+  width: 56px;
+/*  width: 136px;*/
+  height: 20px;
+/*  text-transform: uppercase;*/
+/*  color: #000;*/
+  text-decoration: none;
+}
+
+ul#global-navigation li ul {
+  position: absolute;
+/*  width: 68px;*/
+/*  width: 168px;*/
+  left: -1px;
+/*  top: 21px;*/
+  display: none;
+/*  background-color: #fff;*/
+/*  border: 1px solid #ccc;*/
+/*  border-top: none;*/
+  z-index: 9000;
+}
+
+ul#global-navigation li ul {
+  display: none;
+}
+
+ul#global-navigation li:hover ul {
+  display: block;
+}
+
+ul#global-navigation li ul li {
+  position: relative;
+  float: none;
+/*  border: none;*/
+/*  border-bottom: 1px dotted #DCDDDE;*/
+  height: 19px;
+  z-index: 9000;
+}
+
+ul#global-navigation li ul li.last {
+/*  border-bottom: none;*/
+}
+
+ul#global-navigation li ul li a {
+  width: 68px;
+/*  width: 168px;*/
+  height: 21px;
+  display: block;
+/*  text-transform: capitalize;*/
+}
+
+ul#global-navigation li ul.uppercase li a {
+/*    text-transform: uppercase;*/
+}
+
+/*                          #my_li {
+    width: 50px;
+}
+*/
+ul#global-navigation li ul li a:hover {
+/*  background: url(images_from_eol/bg_gn_dropdown.gif) left top no-repeat;*/
+  width: 58px;
+/*  width: 158px;*/
+}
+
+ul#global-navigation li ul li a em {
+  position: absolute;
+  left: 115px;
+}

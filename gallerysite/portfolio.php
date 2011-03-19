@@ -15,7 +15,7 @@
   <div id="menu-text">
     <div id="menu-text-title">
     </div>
-      
+      <?php include("potfolios/$portfolio.html"); ?>
   </div>
 </div>
 

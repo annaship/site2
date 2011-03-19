@@ -5,11 +5,12 @@
 <div id="right-footer" class="grid_8 push_4">
   <div id="bottom_menu">
 
-    <table id="portfolio_menu">
+    <table id="menu">
       <tr>
         <td class="first_td"><a href="index.php">Home</a></td>
         <td><a href="copyright.php">Copyright</a></td>
-        <td><a href="portfolio.php">About the Portfolio</a></td>
+          <?php $gallery_file_name = (basename($_SERVER['PHP_SELF'])); ?>
+        <td><a href=<?php echo "portfolio_" . $gallery_file_name?>>About the Portfolio</a></td>
         <td><a href="artist.php">About the Artist</a></td>
         <td><a href="order.php">Order a Photograph</a></td>
         <td><a href="mailto:hollysmithpedlosky@italyphotoworkshops.org">Contact Holly</a></td>

@@ -21,6 +21,7 @@ function template_first_part($title) {
   <link rel="stylesheet" href="css/reset.css"/>
   <link rel="stylesheet" href="css/text.css"/>
   <link rel="stylesheet" href="css/960.css"/>
+  <link rel="stylesheet" href="css/dropdown_menu.css"/>
   <link rel="stylesheet" href="css/style.css"/>
   <script src="scripts.js"></script>
 </head>
@@ -34,7 +35,7 @@ function template_last_part($bottom_menu_type="") {
     include("include/footer_portfolio.html");
   }
   else {
-    include("include/footer.html");
+    include("include/footer.php");
   }
   echo '
   </body>

@@ -28,7 +28,7 @@
       Northeastern University in Venice, and I taught in it through 2009. </p>
     <p>I continue to teach intensive digital photo workshops in Venice&nbsp;&amp; on Lake Como,
       Italy for the International Center of Photography, based in New York City.
-      My next Venice workshop for ICP, Venetian Light&nbsp;&amp; Life: from Within, will be September 17-28, 2011.
+      My next Venice workshop for ICP, Venetian Light&nbsp;&amp; Life: from Within, will be September 17&ndash;28, 2011.
       For more information, please visit: <a href=http://www.italyphotoworkshops.org>http://www.italyphotoworkshops.org</a>.</p>
     <p>I have a BA in Fine Arts from Harvard University, an MA from the University of Colorado in urban 
       planning,&nbsp;&amp; an MFA from the School of the Art Institute of Chicago, where I studied with
