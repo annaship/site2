@@ -71,7 +71,8 @@
 
 }
 
-#left_title_em {
+#left_title_em,
+.italic_em {
   font-style: italic;
 }
 
