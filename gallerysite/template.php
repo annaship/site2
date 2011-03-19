@@ -31,12 +31,7 @@ include("include/header.html");
 }
 
 function template_last_part($bottom_menu_type="") {
-  if ($bottom_menu_type == "portfolio") {
-    include("include/footer_portfolio.html");
-  }
-  else {
-    include("include/footer.php");
-  }
+  include("include/footer.php");
   echo '
   </body>
   </html>
