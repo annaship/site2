@@ -53,12 +53,17 @@ function findimg()
 
 
 function showsrc(thumb){
-  alert(thumb.src.replace("http://localhost/gallerysite/images/galleries/",""));
+//  alert(thumb.src.replace("http://localhost/gallerysite/images/galleries/",""));
   thumb.style.border='1px solid';
+  myVar = thumb.src.replace("http://localhost/gallerysite/images/galleries/","")
+
 }
 
 function KeyCheck() {
-  myVar = event.keyCode
+  keyValue = event.keyCode
+  if (myVar) {
+    alert(keyValue);
+  }
   alert(myVar);
 }
 
