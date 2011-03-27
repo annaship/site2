@@ -8,6 +8,7 @@ var isEven = function(someNumber){
 function addBorder(thumb) {
     thumb.style.border='1px solid';
 }
+
 function removeBorder(thumb) {
     thumb.style.border='0px';
 }
@@ -26,35 +27,31 @@ function findimg()
   {
     my_obj[i].onmouseover = function() {
       change_big_one(this);
-//      showsrc(this);
-//      removeBorder(this);
-//      TODO: current thumb should be one you moves in?
     }
-//    my_obj[i].onclick = function() {
-//      showsrc(this);
-//    }
   }
 
 }
 
 function showsrc(thumb){
   addBorder(thumb);
-//  alert(thumb.src.replace("http://localhost/gallerysite/images/galleries/",""));
-//  thumb.style.border='1px solid';
-//  imgNumber = thumb.src.lastIndexOf("0")+1;
   imgNumber = thumb.src.substring(thumb.src.lastIndexOf("0")+1, thumb.src.lastIndexOf("0")+2);
   thumbObj = thumb;
 }
 
-function KeyCheck() {
-  keyValue = event.keyCode
+function KeyCheck(e) {
+  if(window.event) // IE
+  {
+    keyValue = e.keyCode
+  }
+  else if(e.which) // Netscape/Firefox/Opera
+  {
+    keyValue = e.which
+  }
+// view-source:http://djhweb.co.uk/keyup.html
+//  keyValue = event.keyCode;
+//  aa = event.which;
+  alert(keyValue);
   removeBorder(thumbObj);
-//  if (imgNumber) {
-//    alert(keyValue);
-//  }
-//  alert(imgNumber);
-//  alert(thumbObj.alt);
-//  thumbObj.style.border='0px';
 
   if (keyValue == 37) {
     if (isEven(imgNumber)) {
@@ -85,7 +82,7 @@ function KeyCheck() {
       thumb = thumbObj.parentNode.parentNode.previousSibling.previousSibling.childNodes[1].firstChild;
 //     alert(thumbObj.parentNode.parentNode.previousSibling.previousSibling.childNodes[1].firstChild.attributes[1].value);
       if (thumbObj.parentNode.nextSibling.nodeType == 1) {
-        thumb = thumbObj.parentNode.previousSibling.childNodes[0].firstChild;
+        thumb = thumbObj.parentNode.parentNode.previousSibling.childNodes[0].firstChild;
 //        todo: check in IE
       }
       else {
@@ -98,7 +95,7 @@ function KeyCheck() {
 //     alert(thumbObj.parentNode.parentNode.previousSibling.previousSibling.childNodes[3].childNodes[0].attributes[1].value);
       if (thumbObj.parentNode.nextSibling.nodeType == 1) {
 //        thumb = thumbObj.parentNode.nextSibling.firstChild;
-        thumb = thumbObj.parentNode.previousSibling.childNodes[1].firstChild;
+        thumb = thumbObj.parentNode.parentNode.previousSibling.childNodes[1].firstChild;
       }
       else {
 //        thumb = thumbObj.parentNode.nextSibling.nextSibling.firstChild;
@@ -114,7 +111,7 @@ function KeyCheck() {
       thumb = thumbObj.parentNode.parentNode.nextSibling.nextSibling.childNodes[1].firstChild;
 //     alert(thumbObj.parentNode.parentNode.nextSibling.nextSibling.childNodes[1].firstChild.attributes[1].value);
       if (thumbObj.parentNode.nextSibling.nodeType == 1) {
-        thumb = thumbObj.parentNode.nextSibling.childNodes[0].firstChild;
+        thumb = thumbObj.parentNode.parentNode.nextSibling.childNodes[0].firstChild;
 //        todo: check in IE
       }
       else {
@@ -126,7 +123,7 @@ function KeyCheck() {
     if (imgNumber < 7 && isEven(imgNumber)) {
 //     alert(thumbObj.parentNode.parentNode.nextSibling.nextSibling.childNodes[3].childNodes[0].attributes[1].value);
       if (thumbObj.parentNode.nextSibling.nodeType == 1) {
-        thumb = thumbObj.parentNode.nextSibling.childNodes[1].firstChild;
+        thumb = thumbObj.parentNode.parentNode.nextSibling.childNodes[1].firstChild;
       }
       else {
         thumb = thumbObj.parentNode.parentNode.nextSibling.nextSibling.childNodes[3].firstChild;
@@ -138,29 +135,26 @@ function KeyCheck() {
 
 }
 
+function changeShooterPosition(e) {
+  alert("KU");
+	var key = e ? e.which : window.event.keyCode;
+	alert('keycode : ' + key);
+}
+
 //12
 //34
 //56
 //78
+//window.onkeyup=changeShooterPosition;
 
-
+window.onkeyup=changeShooterPosition;
 window.onload = function() {
-//  init();
-  document.onkeyup = KeyCheck;
-  first_thumb = document.getElementById("thumbs").getElementsByTagName('img')[0];
-  showsrc(first_thumb);
   thisPage = document.URL.substring(document.URL.lastIndexOf("/")+1, document.URL.length);
   if (thisPage == 'venetian_laundry.php' || thisPage == 'spaces.php'
       || thisPage == 'casalinghe.php') {
     findimg();
+//    document.onkeyup = KeyCheck(event);
+    first_thumb = document.getElementById("thumbs").getElementsByTagName('img')[0];
+    showsrc(first_thumb);
   }
 }
-
-// window.onload = function() {
-//   highlightLink();
-//   my_popup();
-//   thisPage = document.URL.substring(document.URL.lastIndexOf("/")+1, document.URL.length);
-//   if (thisPage == 'gallery_holly.php' || thisPage == 'gallery_jardine.php') {
-//     findimg();
-//   }
-// }
