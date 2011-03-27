@@ -99,35 +99,28 @@ function KeyCheck() {
   }
     if (keyValue == 38) {
     if (imgNumber > 2 && !isEven(imgNumber)) {
-//     alert(thumbObj.parentNode.parentNode.nextSibling.nextSibling.nodeName);
-//     alert(thumbObj.parentNode.parentNode.nextSibling.nextSibling.childNodes[1].nodeName);
-
-     alert(thumbObj.parentNode.parentNode.previousSibling.previousSibling.childNodes[1].firstChild.attributes[1].value);
-//     parentNode.childNodes[2]
-//      if (thumbObj.parentNode.nextSibling.nodeType == 1) {
+      thumb = thumbObj.parentNode.parentNode.previousSibling.previousSibling.childNodes[1].firstChild;
+//     alert(thumbObj.parentNode.parentNode.previousSibling.previousSibling.childNodes[1].firstChild.attributes[1].value);
+      if (thumbObj.parentNode.nextSibling.nodeType == 1) {
 //        thumb = thumbObj.parentNode.nextSibling.firstChild;
 //      }
 //      else {
 //        thumb = thumbObj.parentNode.nextSibling.nextSibling.firstChild;
-//      }
-//      change_big_one(thumb);
+      }
+      change_big_one(thumb);
     }
   }
     if (keyValue == 38) {
     if (imgNumber > 2 && isEven(imgNumber)) {
-//     alert(thumbObj.parentNode.parentNode.nextSibling.nextSibling.nodeName);
-//     alert(thumbObj.parentNode.parentNode.nextSibling.nextSibling.childNodes[1].nodeName);
-     alert(thumbObj.parentNode.parentNode.previousSibling.previousSibling.childNodes[3].childNodes[0].attributes[1].value);
-
-//     alert(thumbObj.parentNode.parentNode.previousSibling.previousSibling.childNodes[1].childNodes[0].attributes[1].value);
-//     parentNode.childNodes[2]
+//     alert(thumbObj.parentNode.parentNode.previousSibling.previousSibling.childNodes[3].childNodes[0].attributes[1].value);
+     thumb = thumbObj.parentNode.parentNode.previousSibling.previousSibling.childNodes[3].childNodes[0];
 //      if (thumbObj.parentNode.nextSibling.nodeType == 1) {
 //        thumb = thumbObj.parentNode.nextSibling.firstChild;
 //      }
 //      else {
 //        thumb = thumbObj.parentNode.nextSibling.nextSibling.firstChild;
 //      }
-//      change_big_one(thumb);
+      change_big_one(thumb);
     }
   }
 }
