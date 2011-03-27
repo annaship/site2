@@ -1,4 +1,5 @@
-var myVar;
+var imgNumber;
+var thumbObj;
 
 function change_big_one(thumb){
   thumb.style.border='0px';
@@ -55,18 +56,33 @@ function findimg()
 function showsrc(thumb){
 //  alert(thumb.src.replace("http://localhost/gallerysite/images/galleries/",""));
   thumb.style.border='1px solid';
-//  myVar = thumb.src.lastIndexOf("0")+1;
-  myVar = thumb.src.substring(thumb.src.lastIndexOf("0")+1, thumb.src.lastIndexOf("0")+2);
-
+//  imgNumber = thumb.src.lastIndexOf("0")+1;
+  imgNumber = thumb.src.substring(thumb.src.lastIndexOf("0")+1, thumb.src.lastIndexOf("0")+2);
+  thumbObj = thumb;
 }
 
 function KeyCheck() {
   keyValue = event.keyCode
-  if (myVar) {
+  if (imgNumber) {
     alert(keyValue);
   }
-  alert(myVar);
+//  alert(imgNumber);
+//  alert(thumbObj.alt);
+  thumbObj.style.border='0px';
+
+  if (keyValue == 39) {
+    if (imgNumber == 1) {
+      thumbName = thumbObj.src.replace(/0\d/, "02");
+      document.getElementById('BigOne').src = thumbName.replace("_thumb","");
+//      alert(thumbName);
+    }
+  }
 }
+
+//12
+//34
+//56
+//78
 
 
 window.onload = function() {
