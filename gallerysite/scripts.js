@@ -5,9 +5,13 @@ var isEven = function(someNumber){
     return (someNumber%2 == 0) ? true : false;
 };
 
+function removeBorder(thumb) {
+    thumb.style.border='0px';
+}
 
 function change_big_one(thumb){
-  thumb.style.border='0px';
+        removeBorder(thumb);
+
   document.getElementById('BigOne').src=thumb.src.replace("_thumb","");
   document.getElementById('BigOne').alt=thumb.alt;
   document.getElementById("big-img-title").innerHTML = thumb.title;
@@ -21,6 +25,9 @@ function findimg()
   {
     my_obj[i].onmouseover = function() {
       change_big_one(this);
+      showsrc(this);
+//      removeBorder(this);
+//      TODO: current thumb should be one you moves in?
     }
     my_obj[i].onclick = function() {
       showsrc(this);
@@ -73,7 +80,7 @@ function KeyCheck() {
 //  }
 //  alert(imgNumber);
 //  alert(thumbObj.alt);
-  thumbObj.style.border='0px';
+//  thumbObj.style.border='0px';
 
   if (keyValue == 37) {
     if (isEven(imgNumber)) {
@@ -110,8 +117,6 @@ function KeyCheck() {
       }
       change_big_one(thumb);
     }
-  }
-    if (keyValue == 38) {
     if (imgNumber > 2 && isEven(imgNumber)) {
 //     alert(thumbObj.parentNode.parentNode.previousSibling.previousSibling.childNodes[3].childNodes[0].attributes[1].value);
       if (thumbObj.parentNode.nextSibling.nodeType == 1) {
@@ -139,16 +144,12 @@ function KeyCheck() {
       }
       change_big_one(thumb);
     }
-  }
-    if (keyValue == 40) {
     if (imgNumber < 7 && isEven(imgNumber)) {
 //     alert(thumbObj.parentNode.parentNode.nextSibling.nextSibling.childNodes[3].childNodes[0].attributes[1].value);
       if (thumbObj.parentNode.nextSibling.nodeType == 1) {
-//        thumb = thumbObj.parentNode.nextSibling.firstChild;
         thumb = thumbObj.parentNode.nextSibling.childNodes[1].firstChild;
       }
       else {
-//        thumb = thumbObj.parentNode.nextSibling.nextSibling.firstChild;
         thumb = thumbObj.parentNode.parentNode.nextSibling.nextSibling.childNodes[3].firstChild;
       }
       change_big_one(thumb);
