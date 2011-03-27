@@ -70,6 +70,8 @@ function showsrc(thumb){
 }
 
 function change_big_one(thumb){
+  thumb.style.border='0px';
+
   document.getElementById('BigOne').src=thumb.src.replace("_thumb","");
   document.getElementById('BigOne').alt=thumb.alt;
   document.getElementById("big-img-title").innerHTML = thumb.title;
@@ -150,7 +152,7 @@ function KeyCheck() {
 
 window.onload = function() {
 //  init();
-//  document.onkeyup = KeyCheck;
+  document.onkeyup = KeyCheck;
 //  clickObj();
   thisPage = document.URL.substring(document.URL.lastIndexOf("/")+1, document.URL.length);
   if (thisPage == 'venetian_laundry.php' || thisPage == 'spaces.php'
