@@ -75,12 +75,19 @@ function KeyCheck() {
 //  alert(thumbObj.alt);
   thumbObj.style.border='0px';
 
+  if (keyValue == 37) {
+    if (isEven(imgNumber)) {
+      if (thumbObj.parentNode.previousSibling.nodeType == 1) {
+        thumb = thumbObj.parentNode.previousSibling.firstChild;
+      }
+      else {
+        thumb = thumbObj.parentNode.previousSibling.previousSibling.firstChild;
+      }
+      change_big_one(thumb);
+    }
+  }
   if (keyValue == 39) {
     if (!isEven(imgNumber)) {
-//      num = parseInt(imgNumber)+1;
-//      thumbName = thumbObj.src.replace(/0\d/, '0'+num);
-//      document.getElementById('BigOne').src = thumbName.replace("_thumb","");
-//      document.getElementById('BigOne').src = thumbName.replace("_thumb","");
       if (thumbObj.parentNode.nextSibling.nodeType == 1) {
         thumb = thumbObj.parentNode.nextSibling.firstChild;
       }
@@ -88,11 +95,6 @@ function KeyCheck() {
         thumb = thumbObj.parentNode.nextSibling.nextSibling.firstChild;
       }
       change_big_one(thumb);
-//      document.hasAttribute
-//      /html/body/div[3]/div/table/tbody/tr[2]/td/img
-//      document.getElementById('BigOne').alt = thumbName.alt;
-//      document.getElementById("big-img-title").innerHTML = thumbName.title;
-//TODO: make obj or take sibling on the right and pass as an object to change_big_one
     }
   }
 }
