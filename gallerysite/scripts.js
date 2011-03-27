@@ -97,6 +97,22 @@ function KeyCheck() {
       change_big_one(thumb);
     }
   }
+    if (keyValue == 38) {
+    if (imgNumber > 2) {
+//     alert(thumbObj.parentNode.parentNode.nextSibling.nextSibling.nodeName);
+//     alert(thumbObj.parentNode.parentNode.nextSibling.nextSibling.childNodes[1].nodeName);
+
+     alert(thumbObj.parentNode.parentNode.nextSibling.nextSibling.childNodes[1].firstChild.src);
+//     parentNode.childNodes[2]
+//      if (thumbObj.parentNode.nextSibling.nodeType == 1) {
+//        thumb = thumbObj.parentNode.nextSibling.firstChild;
+//      }
+//      else {
+//        thumb = thumbObj.parentNode.nextSibling.nextSibling.firstChild;
+//      }
+//      change_big_one(thumb);
+    }
+  }
 }
 
 //12
