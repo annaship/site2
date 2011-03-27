@@ -38,6 +38,7 @@ function findimg()
 }
 
 function showsrc(thumb){
+  addBorder(thumb);
 //  alert(thumb.src.replace("http://localhost/gallerysite/images/galleries/",""));
 //  thumb.style.border='1px solid';
 //  imgNumber = thumb.src.lastIndexOf("0")+1;
@@ -47,6 +48,7 @@ function showsrc(thumb){
 
 function KeyCheck() {
   keyValue = event.keyCode
+  removeBorder(thumbObj);
 //  if (imgNumber) {
 //    alert(keyValue);
 //  }
