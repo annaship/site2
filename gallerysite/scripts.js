@@ -55,7 +55,8 @@ function findimg()
 function showsrc(thumb){
 //  alert(thumb.src.replace("http://localhost/gallerysite/images/galleries/",""));
   thumb.style.border='1px solid';
-  myVar = thumb.src.replace("http://localhost/gallerysite/images/galleries/","")
+//  myVar = thumb.src.lastIndexOf("0")+1;
+  myVar = thumb.src.substring(thumb.src.lastIndexOf("0")+1, thumb.src.lastIndexOf("0")+2);
 
 }
 
@@ -67,9 +68,6 @@ function KeyCheck() {
   alert(myVar);
 }
 
-//function clickObj() {
-//  onclick = alert(this);
-//}
 
 window.onload = function() {
 //  init();
