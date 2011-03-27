@@ -39,18 +39,20 @@ function showsrc(thumb){
 }
 
 function KeyCheck(e) {
-  if(window.event) // IE
-  {
-    keyValue = e.keyCode
-  }
-  else if(e.which) // Netscape/Firefox/Opera
-  {
-    keyValue = e.which
-  }
-// view-source:http://djhweb.co.uk/keyup.html
+	var keyValue = e ? e.which : window.event.keyCode;
+
+//  if(window.event) // IE
+//  {
+//    keyValue = e.keyCode
+//  }
+//  else if(e.which) // Netscape/Firefox/Opera
+//  {
+//    keyValue = e.which
+//  }
+//// view-source:http://djhweb.co.uk/keyup.html
 //  keyValue = event.keyCode;
 //  aa = event.which;
-  alert(keyValue);
+//  alert(keyValue);//
   removeBorder(thumbObj);
 
   if (keyValue == 37) {
@@ -135,11 +137,11 @@ function KeyCheck(e) {
 
 }
 
-function changeShooterPosition(e) {
-  alert("KU");
-	var key = e ? e.which : window.event.keyCode;
-	alert('keycode : ' + key);
-}
+//function changeShooterPosition(e) {
+//  alert("KU");
+//	var key = e ? e.which : window.event.keyCode;
+//	alert('keycode : ' + key);
+//}
 
 //12
 //34
@@ -147,7 +149,7 @@ function changeShooterPosition(e) {
 //78
 //window.onkeyup=changeShooterPosition;
 
-window.onkeyup=changeShooterPosition;
+window.onkeyup=KeyCheck;
 window.onload = function() {
   thisPage = document.URL.substring(document.URL.lastIndexOf("/")+1, document.URL.length);
   if (thisPage == 'venetian_laundry.php' || thisPage == 'spaces.php'
