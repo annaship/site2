@@ -13,7 +13,7 @@
     </div>
   </div>
   <table id="thumbs">
-    <tr id="first">
+    <tr>
       <td><img src="images/galleries/casalinghe/Casalinghe_01_thumb.jpg"
                title="Margherita, Sant&#39;Erasmo, Venezia"
                alt="Margherita"/></td>
@@ -21,7 +21,7 @@
                title="Anna&nbsp;&amp; Maria, Giudecca, Venezia"
                alt="Anna&nbsp;&amp; Maria"/></td>
     </tr>
-    <tr id="second">
+    <tr>
       <td><img src="images/galleries/casalinghe/Casalinghe_03_thumb.jpg"
                title="Amelia, Dorsoduro, Venezia"
                alt="Amelia"/></td>
@@ -29,7 +29,7 @@
                title="Venetian Sibyl"
                alt="Anna"/></td>
     </tr>
-    <tr id="third">
+    <tr>
       <td><img src="images/galleries/casalinghe/Casalinghe_05_thumb.jpg"
                title="Antonia, Santa Croce, Venezia"
                alt="Antonia"/></td>
@@ -37,7 +37,7 @@
                title="Carla, Vezio"
                alt="Carla"/></td>
     </tr>
-    <tr id="forth">
+    <tr>
       <td><img src="images/galleries/casalinghe/Casalinghe_07_thumb.jpg"
                title="Lidia, La Giudecca, Venezia"
                alt="Lidia"/></td>
