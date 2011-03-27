@@ -1,6 +1,11 @@
 var imgNumber;
 var thumbObj;
 
+var isEven = function(someNumber){
+    return (someNumber%2 == 0) ? true : false;
+};
+
+
 function change_big_one(thumb){
   thumb.style.border='0px';
   document.getElementById('BigOne').src=thumb.src.replace("_thumb","");
@@ -63,18 +68,31 @@ function showsrc(thumb){
 
 function KeyCheck() {
   keyValue = event.keyCode
-  if (imgNumber) {
-    alert(keyValue);
-  }
+//  if (imgNumber) {
+//    alert(keyValue);
+//  }
 //  alert(imgNumber);
 //  alert(thumbObj.alt);
   thumbObj.style.border='0px';
 
   if (keyValue == 39) {
-    if (imgNumber == 1) {
-      thumbName = thumbObj.src.replace(/0\d/, "02");
+    if (!isEven(imgNumber)) {
+      num = parseInt(imgNumber)+1;
+      thumbName = thumbObj.src.replace(/0\d/, '0'+num);
       document.getElementById('BigOne').src = thumbName.replace("_thumb","");
-//      alert(thumbName);
+      document.getElementById('BigOne').src = thumbName.replace("_thumb","");
+      if (thumbObj.parentNode.nextSibling.nodeType == 1) {
+        alert(thumbObj.parentNode.nextSibling.firstChild.nodeType);
+      }
+      else {
+        alert(thumbObj.parentNode.nextSibling.nextSibling.firstChild.nodeName);
+      }
+
+//      document.hasAttribute
+//      /html/body/div[3]/div/table/tbody/tr[2]/td/img
+//      document.getElementById('BigOne').alt = thumbName.alt;
+//      document.getElementById("big-img-title").innerHTML = thumbName.title;
+//TODO: make obj or take sibling on the right and pass as an object to change_big_one
     }
   }
 }
