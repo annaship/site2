@@ -5,13 +5,14 @@ var isEven = function(someNumber){
     return (someNumber%2 == 0) ? true : false;
 };
 
+function addBorder(thumb) {
+    thumb.style.border='1px solid';
+}
 function removeBorder(thumb) {
     thumb.style.border='0px';
 }
 
 function change_big_one(thumb){
-        removeBorder(thumb);
-
   document.getElementById('BigOne').src=thumb.src.replace("_thumb","");
   document.getElementById('BigOne').alt=thumb.alt;
   document.getElementById("big-img-title").innerHTML = thumb.title;
@@ -25,49 +26,20 @@ function findimg()
   {
     my_obj[i].onmouseover = function() {
       change_big_one(this);
-      showsrc(this);
+//      showsrc(this);
 //      removeBorder(this);
 //      TODO: current thumb should be one you moves in?
     }
-    my_obj[i].onclick = function() {
-      showsrc(this);
-    }
+//    my_obj[i].onclick = function() {
+//      showsrc(this);
+//    }
   }
 
 }
 
-//function showresult(e)
-//{
-//  var keynum
-//  alert('HERE '+e);
-//
-//  if(window.event) // IE
-//  {
-//    keynum = e.keyCode
-//  }
-//  else if(e.which) // Netscape/Firefox/Opera
-//  {
-//    keynum = e.which
-//  }
-//  alert(keynum);
-//  switch(keynum)
-//  {
-//    case 37:
-////      document.getElementById('thumbs').innerHTML="Arrow Left";
-//  alert("case37");
-//      break;
-//    case 39:
-////      document.getElementById('thumbs').innerHTML="Arrow Right";
-//  alert("case39");
-//
-//    break;
-//  }
-//}
-
-
 function showsrc(thumb){
 //  alert(thumb.src.replace("http://localhost/gallerysite/images/galleries/",""));
-  thumb.style.border='1px solid';
+//  thumb.style.border='1px solid';
 //  imgNumber = thumb.src.lastIndexOf("0")+1;
   imgNumber = thumb.src.substring(thumb.src.lastIndexOf("0")+1, thumb.src.lastIndexOf("0")+2);
   thumbObj = thumb;
@@ -91,6 +63,7 @@ function KeyCheck() {
         thumb = thumbObj.parentNode.previousSibling.previousSibling.firstChild;
       }
       change_big_one(thumb);
+      showsrc(thumb);
     }
   }
   if (keyValue == 39) {
@@ -102,6 +75,7 @@ function KeyCheck() {
         thumb = thumbObj.parentNode.nextSibling.nextSibling.firstChild;
       }
       change_big_one(thumb);
+      showsrc(thumb);
     }
   }
     if (keyValue == 38) {
@@ -116,6 +90,7 @@ function KeyCheck() {
         thumb = thumbObj.parentNode.parentNode.previousSibling.previousSibling.childNodes[1].firstChild;
       }
       change_big_one(thumb);
+      showsrc(thumb);
     }
     if (imgNumber > 2 && isEven(imgNumber)) {
 //     alert(thumbObj.parentNode.parentNode.previousSibling.previousSibling.childNodes[3].childNodes[0].attributes[1].value);
@@ -128,6 +103,7 @@ function KeyCheck() {
         thumb = thumbObj.parentNode.parentNode.previousSibling.previousSibling.childNodes[3].firstChild;
       }
       change_big_one(thumb);
+      showsrc(thumb);
     }
   }
   // down
@@ -143,6 +119,7 @@ function KeyCheck() {
         thumb = thumbObj.parentNode.parentNode.nextSibling.nextSibling.childNodes[1].firstChild;
       }
       change_big_one(thumb);
+      showsrc(thumb);
     }
     if (imgNumber < 7 && isEven(imgNumber)) {
 //     alert(thumbObj.parentNode.parentNode.nextSibling.nextSibling.childNodes[3].childNodes[0].attributes[1].value);
@@ -153,6 +130,7 @@ function KeyCheck() {
         thumb = thumbObj.parentNode.parentNode.nextSibling.nextSibling.childNodes[3].firstChild;
       }
       change_big_one(thumb);
+      showsrc(thumb);
     }
   }
 
@@ -167,7 +145,8 @@ function KeyCheck() {
 window.onload = function() {
 //  init();
   document.onkeyup = KeyCheck;
-//  clickObj();
+  first_thumb = document.getElementById("thumbs").getElementsByTagName('img')[0];
+  showsrc(first_thumb);
   thisPage = document.URL.substring(document.URL.lastIndexOf("/")+1, document.URL.length);
   if (thisPage == 'venetian_laundry.php' || thisPage == 'spaces.php'
       || thisPage == 'casalinghe.php') {
