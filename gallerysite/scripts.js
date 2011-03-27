@@ -77,17 +77,17 @@ function KeyCheck() {
 
   if (keyValue == 39) {
     if (!isEven(imgNumber)) {
-      num = parseInt(imgNumber)+1;
-      thumbName = thumbObj.src.replace(/0\d/, '0'+num);
-      document.getElementById('BigOne').src = thumbName.replace("_thumb","");
-      document.getElementById('BigOne').src = thumbName.replace("_thumb","");
+//      num = parseInt(imgNumber)+1;
+//      thumbName = thumbObj.src.replace(/0\d/, '0'+num);
+//      document.getElementById('BigOne').src = thumbName.replace("_thumb","");
+//      document.getElementById('BigOne').src = thumbName.replace("_thumb","");
       if (thumbObj.parentNode.nextSibling.nodeType == 1) {
-        alert(thumbObj.parentNode.nextSibling.firstChild.nodeType);
+        thumb = thumbObj.parentNode.nextSibling.firstChild;
       }
       else {
-        alert(thumbObj.parentNode.nextSibling.nextSibling.firstChild.nodeName);
+        thumb = thumbObj.parentNode.nextSibling.nextSibling.firstChild;
       }
-
+      change_big_one(thumb);
 //      document.hasAttribute
 //      /html/body/div[3]/div/table/tbody/tr[2]/td/img
 //      document.getElementById('BigOne').alt = thumbName.alt;
