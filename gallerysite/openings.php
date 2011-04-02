@@ -34,18 +34,17 @@
     </tr>
     <tr>
       <td><img src="images/galleries/openings/openings_05_thumb.png"
+               title="Trattoria, Venetian Lagoon"
+               alt="Trattoria"							/></td>
+      <td><img src="images/galleries/openings/openings_06_thumb.png"
                title="Campo Bold&ograve;, Dorsoduro, Venezia"
                alt="Campo, Dorsoduro"
-							/></td>
-      <td><img src="images/galleries/openings/openings_06_thumb.png"
-               title="Island of the Vignole, Venetian Lagoon"
-               alt="Fishing net"
 							/></td>
     </tr>
     <tr>
       <td><img src="images/galleries/openings/openings_07_thumb.png"
-               title="Trattoria, Venetian Lagoon"
-               alt="Trattoria"
+               title="Island of the Vignole, Venetian Lagoon"
+               alt="Fishing net"
 							/></td>
       <td><img src="images/galleries/openings/openings_08_thumb.png"
                title="Private Garden, Venetian Lagoon"
