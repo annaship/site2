@@ -16,13 +16,16 @@
     <div id="right-text-title">
       Venetian Spaces: Openings
     </div>
-    <div id="citation">
-      <p class="cit_body">...to go to Italy... is like a most fascinating act of
-            self-discovery&nbsp;&#8212; back, back down the old ways of time.
-            Strange and wonderful chords awaken in us and vibrate again after
-            many hundreds of years of forgetfulness.</p>
-      <p class="cit_author">D.H. Lawrence</p>
+<!--    <div class="right" class="grid_6 push_2" >-->
+      <div id="citation" class="grid_6 push_2">
+        <p class="cit_body">...to go to Italy... is like a most fascinating act of
+              self-discovery&nbsp;&#8212; back, back down the old ways of time.
+              Strange and wonderful chords awaken in us and vibrate again after
+              many hundreds of years of forgetfulness.</p>
+        <p class="cit_author">D.H. Lawrence</p>
+<!--      </div>-->
     </div>
+<div class="clear"></div> <!-- Important! -->
 
     <p>Venetian Spaces are not like any other spaces. Until you go there, it is 
       impossible to know how the absence of cars, motorcycles, trucks,
@@ -35,7 +38,6 @@
       the vistas, the delight, the light, the darkness&nbsp;&#8212; the physical
       and emotional <span class="italic_em">chiaroscuro</span> of Italian spaces.</p>
     <p>I integrate between 3&nbsp;&amp; 23 individual photographic shots to make my panoramas.</p>
-
   </div>
 </div>
 

@@ -256,18 +256,24 @@ table#menu {
   padding-bottom: 15px;
 }
 
+.right {
+/*  margin-left: auto;*/
+}
+
 #citation{
 /*  color: #999999;*/
-  font-size: 1em;
-  font-style: italic;
+  font-size: 0.9em;
   padding-bottom: 1.5em;
+  width: 70%;
 }
 
 .cit_body{
-/*  margin-bottom: 0pt !important;*/
+  margin-bottom: 0pt !important;
+  font-style: italic;
 }
 
 .cit_author{
   text-align: right;
-/*  margin-top: 0pt;*/
+  margin-top: 0pt;
+  padding-top: 0pt !important;
 }
