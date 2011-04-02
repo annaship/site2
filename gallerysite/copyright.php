@@ -23,7 +23,6 @@
     </div>
     <p>All images on this website are registered with the U.S. Copyright Office.
       Multiple, traceable, digital watermarks are imbedded in each image.
-      We will prosecute theft to the fullest extent of the law.
       No part of this website shall be reproduced, in part or in whole,
       nor in any form whether mechanical or digital or stored in any retrieval system
       without prior written permission from the copyright holders.</p>

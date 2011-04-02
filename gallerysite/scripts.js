@@ -134,7 +134,9 @@ window.onload  = function() {
   thisPage = document.URL.substring(document.URL.lastIndexOf("/")+1, document.URL.length);
   if (thisPage == 'venetian_laundry.php' || 
       thisPage == 'spaces.php' ||
-      thisPage == 'casalinghe.php') {
+      thisPage == 'casalinghe.php' ||
+      thisPage == 'openings.php'
+    ) {
     findimg();
     first_thumb = document.getElementById("thumbs").getElementsByTagName('img')[0];
     showsrc(first_thumb);

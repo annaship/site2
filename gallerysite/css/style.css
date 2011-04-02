@@ -255,3 +255,19 @@ table#menu {
   font-size: 32px;
   padding-bottom: 15px;
 }
+
+#citation{
+/*  color: #999999;*/
+  font-size: 1em;
+  font-style: italic;
+  padding-bottom: 1.5em;
+}
+
+.cit_body{
+/*  margin-bottom: 0pt !important;*/
+}
+
+.cit_author{
+  text-align: right;
+/*  margin-top: 0pt;*/
+}
