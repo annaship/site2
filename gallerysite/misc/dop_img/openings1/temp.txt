@@ -1,0 +1,10 @@
+#! /bin/bash
+
+mv openings_01.png openings_01.jpg 
+mv openings_02_8.png openings_02.jpg 
+mv openings_03.png openings_03.jpg 
+mv openings_04.png openings_04.jpg 
+mv openings_05.png openings_05.jpg 
+mv openings_06.png openings_06.jpg 
+mv openings_07.png openings_07.jpg 
+mv openings_8.png openings_08.jpg 
