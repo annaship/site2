@@ -34,13 +34,21 @@ function findimg()
 
 function showsrc(thumb){
   addBorder(thumb);
-  imgNumber = thumb.src.substring(thumb.src.lastIndexOf("0")+1, thumb.src.lastIndexOf("0")+2);
+//  alert(thumb.src.lastIndexOf("thumb.jpg"));
+//  alert(thumb.src.substring(thumb.src.lastIndexOf("thumb.jpg")-1, thumb.src.lastIndexOf("thumb.jpg")-3));
+//  imgNumber = thumb.src.substring(thumb.src.lastIndexOf("0")+1, thumb.src.lastIndexOf("0")+2);
+  imgNumber = thumb.src.substring(thumb.src.lastIndexOf("thumb.jpg")-1, thumb.src.lastIndexOf("thumb.jpg")-3);
+//alert("thumb.src.lastIndexOf('.jpg') = ".thumb.src.lastIndexOf(".jpg"), "imgNumber = ".imgNumber);
+  alert(imgNumber);
+  
+
   thumbObj = thumb;
 }
 
 function KeyCheck(e) {
 	var keyValue = e ? e.which : window.event.keyCode;
 
+//alert("keyValue = ".keyValue, "imgNumber = ".imgNumber);
   removeBorder(thumbObj);
 
   if (keyValue == 37) {
@@ -97,7 +105,10 @@ function KeyCheck(e) {
   }
   // down
       if (keyValue == 40) {
-    if (imgNumber < 7 && !isEven(imgNumber)) {
+//    if (imgNumber < 7 && !isEven(imgNumber)) {
+alert("isEven(imgNumber)");
+alert(isEven(imgNumber));
+    if (!isEven(imgNumber)) {
       thumb = thumbObj.parentNode.parentNode.nextSibling.nextSibling.childNodes[1].firstChild;
 //     alert(thumbObj.parentNode.parentNode.nextSibling.nextSibling.childNodes[1].firstChild.attributes[1].value);
       if (thumbObj.parentNode.nextSibling.nodeType == 1) {
