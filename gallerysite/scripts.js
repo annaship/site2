@@ -135,7 +135,7 @@ window.onload  = function() {
   if (thisPage == 'venetian_laundry.php' || 
       thisPage == 'spaces.php' ||
       thisPage == 'casalinghe.php' ||
-      thisPage == 'galeggianti.php' ||
+      thisPage == 'galleggianti.php' ||
       thisPage == 'openings.php'
     ) {
     findimg();

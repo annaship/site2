@@ -206,7 +206,7 @@ table#menu {
 #left_menu ul {
   list-style-type: none;
   padding-left: 15px;
-  padding-top: 3px;
+/*  padding-top: 3px;*/
 }
 
 #left_menu ul a {
@@ -229,7 +229,7 @@ table#menu {
 }
 
 #second_level li {
-  padding-top: 2px;
+  padding-top: 10px !important;
 }
 
 #third_level {
@@ -237,7 +237,7 @@ table#menu {
 }
 
 #third_level li {
-  padding-top: 3px;
+  padding-top: 0px !important;
 }
 
 #right-text {

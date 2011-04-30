@@ -12,7 +12,7 @@
           if ($gallery_file_name        == "venetian_laundry.php"
                   || $gallery_file_name == "spaces.php"
                   || $gallery_file_name == "openings.php"
-                  || $gallery_file_name == "galeggianti.php"
+                  || $gallery_file_name == "galleggianti.php"
                   || $gallery_file_name == "casalinghe.php") {
         ?>
         <td><a href=<?php echo "portfolio_" . $gallery_file_name?>>About This Portfolio</a></td>

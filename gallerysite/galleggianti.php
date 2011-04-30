@@ -8,53 +8,51 @@
 <div id="left-content" class="grid_4 ">
   <div id="left-title">
     <div id="left-title-big">
-    <span id="left_title_em">galleggianti</span>:<br/>
-    Traditional Italian<br/> Housewives
-    </div>
+    <span id="left_title_em">Galleggianti</span></div>
   </div>
   <table id="thumbs">
     <tr>
       <td><img src="images/galleries/galleggianti/galleggianti_01_thumb.jpg"
-               title="Margherita, Sant&#39;Erasmo, Venezia"
-               alt="Margherita"/></td>
+               title="Self-Portrait in Womb Glass"
+               alt="Floating Emulsion 1"/></td>
       <td><img src="images/galleries/galleggianti/galleggianti_02_thumb.jpg"
-               title="Anna&nbsp;&amp; Maria, Giudecca, Venezia"
-               alt="Anna&nbsp;&amp; Maria"/></td>
+               title="Self-Portrait in Water"
+               alt="Floating Emulsion 2"/></td>
     </tr>
     <tr>
       <td><img src="images/galleries/galleggianti/galleggianti_03_thumb.jpg"
-               title="Amelia, Dorsoduro, Venezia"
-               alt="Amelia"/></td>
+               title="Self-Portrait in Broken Glass Float"
+               alt="Floating Emulsion 3"/></td>
       <td><img src="images/galleries/galleggianti/galleggianti_04_thumb.jpg"
-               title="Venetian Sibyl"
-               alt="Anna"/></td>
+               title="Self-Portrait in Glass Float"
+               alt="Floating Emulsion 4"/></td>
     </tr>
     <tr>
       <td><img src="images/galleries/galleggianti/galleggianti_05_thumb.jpg"
-               title="Antonia, Santa Croce, Venezia"
-               alt="Antonia"/></td>
+               title="Self-Portrait in Glass Dish"
+               alt="Floating Emulsion 5"/></td>
       <td><img src="images/galleries/galleggianti/galleggianti_06_thumb.jpg"
-               title="Carla, Vezio"
-               alt="Carla"/></td>
+               title="Self-Portrait in Glass Float"
+               alt="Floating Emulsion 6"/></td>
     </tr>
     <tr>
       <td><img src="images/galleries/galleggianti/galleggianti_07_thumb.jpg"
-               title="Lidia, La Giudecca, Venezia"
-               alt="Lidia"/></td>
+               title="Nude in Water"
+               alt="Floating Emulsion 7"/></td>
       <td><img src="images/galleries/galleggianti/galleggianti_08_thumb.jpg"
-               title="The Winning Lottery Ticket"
-               alt="Anna"/></td>
+               title="Fetal Heartbeat, Image-Processed in Sandin Synthesizer"
+               alt="Floating Emulsion 8"/></td>
     </tr>
   </table>
 </div>
 
 <div id="right-content" class="grid_8 ">
   <div id="galleries_title">
-    Venice&nbsp;&amp; the Secrets of Women: the Sibyls
+    Floating Photographic Emulsions
   </div>
   <div id="big_img_one">
-    <img id="BigOne" src="images/galleries/galleggianti/galleggianti_01.jpg" alt="Margherita"/>
-    <div id="big-img-title">Margherita, Sant&#39;Erasmo, Venezia</div>
+    <img id="BigOne" src="images/galleries/galleggianti/galleggianti_01.jpg" alt="Floating Emulsion 1"/>
+    <div id="big-img-title">Self-Portrait in Womb Glass</div>
   </div>
 
 </div>
