@@ -136,6 +136,7 @@ window.onload  = function() {
       thisPage == 'spaces.php' ||
       thisPage == 'casalinghe.php' ||
       thisPage == 'galleggianti.php' ||
+      thisPage == 'sem.php' ||
       thisPage == 'openings.php'
     ) {
     findimg();
