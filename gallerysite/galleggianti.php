@@ -8,7 +8,7 @@
 <div id="left-content" class="grid_4 ">
   <div id="left-title">
     <div id="left-title-big">
-    <span id="left_title_em">Galleggianti</span></div>
+    <span id="left_title_em">The Placenta Project</span></div>
   </div>
   <table id="thumbs">
     <tr>
